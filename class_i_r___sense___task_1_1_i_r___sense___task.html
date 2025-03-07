@@ -110,14 +110,19 @@ $(function(){initNavTree('class_i_r___sense___task_1_1_i_r___sense___task.html',
   <div class="headertitle"><div class="title">IR_Sense_Task.IR_Sense_Task Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_i_r___sense___task_1_1_i_r___sense___task.html" title="IR_Sense_Task provides a driver to track the array of IR sensors for line following.">IR_Sense_Task</a> provides a driver to track the array of IR sensors for line following.  
+ <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a458848efb0a2ce61f41e343b61f92547" id="r_a458848efb0a2ce61f41e343b61f92547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a458848efb0a2ce61f41e343b61f92547">__init__</a> (self, dataQueue, ctrlState, offset, strength)</td></tr>
 <tr class="separator:a458848efb0a2ce61f41e343b61f92547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08f86d7812ec575d49eabe2fca904e8e" id="r_a08f86d7812ec575d49eabe2fca904e8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08f86d7812ec575d49eabe2fca904e8e">callback</a> (self, pin)</td></tr>
+<tr class="memdesc:a08f86d7812ec575d49eabe2fca904e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback(pin) defines the callback when the IR sensor pin is driven low by the sensor to indicate the reflectance.  <br /></td></tr>
 <tr class="separator:a08f86d7812ec575d49eabe2fca904e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fbec65f3236763fd47bec98f7400fa1" id="r_a2fbec65f3236763fd47bec98f7400fa1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fbec65f3236763fd47bec98f7400fa1">run</a> (self)</td></tr>
+<tr class="memdesc:a2fbec65f3236763fd47bec98f7400fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#a2fbec65f3236763fd47bec98f7400fa1" title="run() runs the next state of the state machine.">run()</a> runs the next state of the state machine.  <br /></td></tr>
 <tr class="separator:a2fbec65f3236763fd47bec98f7400fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -160,7 +165,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7ffca45c46bfc98134a5e62b9eac1d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb2eb52ecca9464e14903311821c2d4" id="r_adcb2eb52ecca9464e14903311821c2d4"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcb2eb52ecca9464e14903311821c2d4">blackRef</a> = []</td></tr>
 <tr class="separator:adcb2eb52ecca9464e14903311821c2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5861b77d763bf0851c6c50af149c73c8" id="r_a5861b77d763bf0851c6c50af149c73c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5861b77d763bf0851c6c50af149c73c8">strength_list</a> = array('i', IR_Sense_Task.STRENGTH_AVE*[0])</td></tr>
+<tr class="memitem:a5861b77d763bf0851c6c50af149c73c8" id="r_a5861b77d763bf0851c6c50af149c73c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5861b77d763bf0851c6c50af149c73c8">strength_list</a> = array('i', <a class="el" href="#a1e572b13480ad1ed0ed4f0ccd6559b71">IR_Sense_Task.STRENGTH_AVE</a>*[0])</td></tr>
 <tr class="separator:a5861b77d763bf0851c6c50af149c73c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98d3a54781dcebe05c1cc1739143bdaa" id="r_a98d3a54781dcebe05c1cc1739143bdaa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98d3a54781dcebe05c1cc1739143bdaa">strength_index</a> = 0</td></tr>
 <tr class="separator:a98d3a54781dcebe05c1cc1739143bdaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,15 +177,21 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a1e572b13480ad1ed0ed4f0ccd6559b71" id="r_a1e572b13480ad1ed0ed4f0ccd6559b71"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e572b13480ad1ed0ed4f0ccd6559b71">STRENGTH_AVE</a> = 5</td></tr>
+<tr class="memdesc:a1e572b13480ad1ed0ed4f0ccd6559b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of IR reflectance strength values to average over time before assigning strength.  <br /></td></tr>
 <tr class="separator:a1e572b13480ad1ed0ed4f0ccd6559b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b47ced08c32d4aa6167b1e8b02d7470" id="r_a0b47ced08c32d4aa6167b1e8b02d7470"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b47ced08c32d4aa6167b1e8b02d7470">MAX_OFFSET</a> = 400</td></tr>
+<tr class="memdesc:a0b47ced08c32d4aa6167b1e8b02d7470"><td class="mdescLeft">&#160;</td><td class="mdescRight">The largest allowable offset reading before we begin to saturate.  <br /></td></tr>
 <tr class="separator:a0b47ced08c32d4aa6167b1e8b02d7470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a2b1728e2206aebb1d12bd93a579d8" id="r_a99a2b1728e2206aebb1d12bd93a579d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99a2b1728e2206aebb1d12bd93a579d8">BIAS</a> = 0</td></tr>
+<tr class="memdesc:a99a2b1728e2206aebb1d12bd93a579d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines an automatic bias in the offset value.  <br /></td></tr>
 <tr class="separator:a99a2b1728e2206aebb1d12bd93a579d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00009">9</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<div class="textblock"><p><a class="el" href="class_i_r___sense___task_1_1_i_r___sense___task.html" title="IR_Sense_Task provides a driver to track the array of IR sensors for line following.">IR_Sense_Task</a> provides a driver to track the array of IR sensors for line following. </p>
+<p>The IR sensors are the RC model, not the analog model. The steps to read from each sensor are 1) start with the pin low 2) drive the pin high briefly 3) enable the pin callback 4) assign the pin as an input to disconnect 5) wait for the pin to be driven high by the sensor 6) record the time. <br  />
+ Every call to the <a class="el" href="#a2fbec65f3236763fd47bec98f7400fa1" title="run() runs the next state of the state machine.">run()</a> function, we read, at most, one sensor, if it is available. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00013">13</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a458848efb0a2ce61f41e343b61f92547" name="a458848efb0a2ce61f41e343b61f92547"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a458848efb0a2ce61f41e343b61f92547">&#9670;&#160;</a></span>__init__()</h2>
@@ -216,7 +227,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00015">15</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00022">22</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -240,7 +251,10 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00024">24</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>callback(pin) defines the callback when the IR sensor pin is driven low by the sensor to indicate the reflectance. </p>
+<p>Data is stored directly in the rawData variable because floating point math is forbidden in callbacks </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00033">33</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -259,7 +273,10 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00052">52</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p><a class="el" href="#a2fbec65f3236763fd47bec98f7400fa1" title="run() runs the next state of the state machine.">run()</a> runs the next state of the state machine. </p>
+<p>It is intended to be called by the scheduler with a period of 2ms. Once in the reading state, every call to <a class="el" href="#a2fbec65f3236763fd47bec98f7400fa1" title="run() runs the next state of the state machine.">run()</a> does the following things: 1) Set the next sensor high 2) enable the callback for the current sensor 3) set the current sensor to an input 4) update strength and offset </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00045">45</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -284,7 +301,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00013">13</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>Defines an automatic bias in the offset value. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00020">20</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -300,7 +319,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00091">91</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00084">84</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -316,7 +335,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00071">71</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00064">64</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -332,7 +351,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00017">17</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00024">24</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -348,7 +367,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00016">16</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00023">23</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -364,7 +383,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00029">29</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00038">38</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -380,7 +399,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00062">62</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00055">55</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -396,7 +415,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00069">69</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00062">62</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -412,7 +431,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00120">120</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00113">113</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -436,7 +455,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00012">12</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>The largest allowable offset reading before we begin to saturate. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00018">18</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -452,7 +473,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00019">19</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00026">26</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -468,7 +489,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00059">59</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00052">52</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -484,7 +505,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00068">68</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00061">61</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -500,7 +521,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00058">58</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00051">51</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -516,7 +537,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00086">86</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00079">79</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -532,7 +553,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00087">87</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00080">80</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -548,7 +569,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00064">64</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00057">57</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -564,7 +585,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00060">60</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00053">53</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -580,7 +601,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00089">89</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00082">82</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -596,7 +617,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00022">22</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00029">29</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -612,7 +633,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00020">20</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00027">27</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -636,7 +657,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00011">11</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>The number of IR reflectance strength values to average over time before assigning strength. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00016">16</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -652,7 +675,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00099">99</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00092">92</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -663,12 +686,12 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">IR_Sense_Task.IR_Sense_Task.strength_list = array('i', IR_Sense_Task.STRENGTH_AVE*[0])</td>
+          <td class="memname">IR_Sense_Task.IR_Sense_Task.strength_list = array('i', <a class="el" href="#a1e572b13480ad1ed0ed4f0ccd6559b71">IR_Sense_Task.STRENGTH_AVE</a>*[0])</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00098">98</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00091">91</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -684,7 +707,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00119">119</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00112">112</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -700,7 +723,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00090">90</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00083">83</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>

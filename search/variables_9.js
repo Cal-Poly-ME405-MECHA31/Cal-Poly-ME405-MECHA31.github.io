@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['startheading_0',['startHeading',['../class_controller_1_1_controller.html#a79383621556e83f09e545934f5c887a1',1,'Controller::Controller']]],
-  ['startposition_1',['startPosition',['../class_controller_1_1_controller.html#a3a11d432d6fcbdec47f90b6997c2ef70',1,'Controller::Controller']]],
-  ['strength_2',['strength',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a7b6c0e1bcc722f49ce77a44f533f6538',1,'ME405 Term Project v5::Main']]]
+  ['max_5feffort_0',['MAX_EFFORT',['../class_motor_1_1_motor.html#abd872345d497e44a65b51a5a3f731c76',1,'Motor.Motor.MAX_EFFORT'],['../class_motor___task_1_1_motor___task.html#a35ba39abd8988f3a1275c12d9e69b735',1,'Motor_Task.Motor_Task.MAX_EFFORT']]],
+  ['max_5foffset_1',['MAX_OFFSET',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a0b47ced08c32d4aa6167b1e8b02d7470',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['motor_2',['motor',['../class_motor___task_1_1_motor___task.html#a5fd414376a45b3f53d3db9cf2c36077d',1,'Motor_Task::Motor_Task']]]
 ];

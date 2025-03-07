@@ -157,16 +157,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:adeaa0018316475177771ab7799b94bdc" id="r_adeaa0018316475177771ab7799b94bdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeaa0018316475177771ab7799b94bdc">yPosition</a> = yPosition</td></tr>
 <tr class="separator:adeaa0018316475177771ab7799b94bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a024dce78fb3e60f5cfbd2ab60f14dbd3" id="r_a024dce78fb3e60f5cfbd2ab60f14dbd3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a024dce78fb3e60f5cfbd2ab60f14dbd3">state</a> = Controller.INIT</td></tr>
+<tr class="memdesc:a024dce78fb3e60f5cfbd2ab60f14dbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The next state the machine should run upon being called.  <br /></td></tr>
 <tr class="separator:a024dce78fb3e60f5cfbd2ab60f14dbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65e55fd2c9466a6e86bd0871534b2b0f" id="r_a65e55fd2c9466a6e86bd0871534b2b0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65e55fd2c9466a6e86bd0871534b2b0f">linePID</a> = <a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a>(0, 0, 0, <a class="el" href="#aa1542f76a91c1202b732807da5cf592a">Controller.INTEGRAL_SPEED</a>, <a class="el" href="#a48d29c3bc570c6d8f715c9f2ae5f403e">Controller.DER_AVE</a>)</td></tr>
-<tr class="memdesc:a65e55fd2c9466a6e86bd0871534b2b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a> object with constants chosen for controlling yaw speed as a function of IR sensor offset.  <br /></td></tr>
+<tr class="memdesc:a65e55fd2c9466a6e86bd0871534b2b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> object with constants chosen for controlling yaw speed as a function of IR sensor offset.  <br /></td></tr>
 <tr class="separator:a65e55fd2c9466a6e86bd0871534b2b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0752a71bf10da9ae9300de9ea4e96fd5" id="r_a0752a71bf10da9ae9300de9ea4e96fd5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0752a71bf10da9ae9300de9ea4e96fd5">headingPID</a> = <a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a>(IMU_Tracker.K_P, IMU_Tracker.K_I, 0, IMU_Tracker.INTEGRAL_SPEED, IMU_Tracker.DER_AVE)</td></tr>
-<tr class="memdesc:a0752a71bf10da9ae9300de9ea4e96fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a> object with constants chosen for controlling yaw speed as a function of heading error.  <br /></td></tr>
+<tr class="memdesc:a0752a71bf10da9ae9300de9ea4e96fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> object with constants chosen for controlling yaw speed as a function of heading error.  <br /></td></tr>
 <tr class="separator:a0752a71bf10da9ae9300de9ea4e96fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60b05a9d234a745d4ded5e0d2a668331" id="r_a60b05a9d234a745d4ded5e0d2a668331"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b05a9d234a745d4ded5e0d2a668331">returnState</a> = self.state</td></tr>
-<tr class="memdesc:a60b05a9d234a745d4ded5e0d2a668331"><td class="mdescLeft">&#160;</td><td class="mdescRight">In the event that the ALIGN_POINT task is used, returnState defines where the state machine should return to after reaching the point.  <br /></td></tr>
-<tr class="separator:a60b05a9d234a745d4ded5e0d2a668331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4299e3263502a963d8286a483fa282b9" id="r_a4299e3263502a963d8286a483fa282b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4299e3263502a963d8286a483fa282b9">returnState</a> = self.state</td></tr>
+<tr class="memdesc:a4299e3263502a963d8286a483fa282b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">In the event that the ALIGN_POINT task is used, returnState defines where the state machine should return to after reaching the point.  <br /></td></tr>
+<tr class="separator:a4299e3263502a963d8286a483fa282b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79383621556e83f09e545934f5c887a1" id="r_a79383621556e83f09e545934f5c887a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79383621556e83f09e545934f5c887a1">startHeading</a> = self.heading.get()</td></tr>
 <tr class="memdesc:a79383621556e83f09e545934f5c887a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This float object is set once when the course is started with the current heading from the IMU, then referenced later for alignment motions.  <br /></td></tr>
 <tr class="separator:a79383621556e83f09e545934f5c887a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,7 +246,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="class_controller_1_1_controller.html" title="The Controller class contains the state machine that tracks Romi&#39;s progress through the course.">Controller</a> class contains the state machine that tracks Romi's progress through the course. </p>
-<p>The course is divided into 21 individual steps, each expressed as a state that the controller object must pass through before reaching the end. The <a class="el" href="class_controller_1_1_controller.html" title="The Controller class contains the state machine that tracks Romi&#39;s progress through the course.">Controller</a> class requires access to all sensor data through the Share objects </p>
+<p>The course is divided into 21 individual steps, each expressed as a state that the controller object must pass through before reaching the end. Each state defines the control law for the motors as well as the logic for passing to the next state. </p>
 
 <p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00021">21</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -925,7 +926,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a> object with constants chosen for controlling yaw speed as a function of heading error. </p>
+<p><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> object with constants chosen for controlling yaw speed as a function of heading error. </p>
 
 <p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00110">110</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
@@ -1137,7 +1138,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a> object with constants chosen for controlling yaw speed as a function of IR sensor offset. </p>
+<p><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> object with constants chosen for controlling yaw speed as a function of IR sensor offset. </p>
 
 <p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00109">109</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
@@ -1271,14 +1272,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a60b05a9d234a745d4ded5e0d2a668331" name="a60b05a9d234a745d4ded5e0d2a668331"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60b05a9d234a745d4ded5e0d2a668331">&#9670;&#160;</a></span>returnState</h2>
+<a id="a4299e3263502a963d8286a483fa282b9" name="a4299e3263502a963d8286a483fa282b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4299e3263502a963d8286a483fa282b9">&#9670;&#160;</a></span>returnState</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Controller.Controller.returnState = self.state</td>
+          <td class="memname">Controller.Controller.returnState = self.state</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1336,6 +1337,9 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The next state the machine should run upon being called. </p>
+<p>For a list of valid states, see the integer constants from 0-25 defined in this class. </p>
 
 <p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00090">90</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 

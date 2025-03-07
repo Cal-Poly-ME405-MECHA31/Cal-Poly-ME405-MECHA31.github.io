@@ -1,12 +1,7 @@
 var searchData=
 [
-  ['targetposition_0',['targetPosition',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a442af6a330179f3e3691742a2e8a0c4f',1,'ME405 Term Project v5::Main']]],
-  ['targetvelocity_1',['targetVelocity',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a164ede44e70ecd8138219d44652dd4ad',1,'ME405 Term Project v5::Main']]],
-  ['task_20diagram_3a_2',['Overall Task Diagram:',['../index.html#autotoc_md3',1,'']]],
-  ['term_20project_3',['ME405 MECHA31 TERM PROJECT',['../index.html',1,'']]],
-  ['term_20project_20created_20by_20evan_20long_20and_20sydney_20alexander_4',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]],
-  ['timestamp_5',['timeStamp',['../class_controller_1_1_controller.html#a7b42dbf192fe00cebefb33c6493072ea',1,'Controller::Controller']]],
-  ['to_20each_2011_20classes_3a_6',['Links to Each 11 Classes:',['../index.html#autotoc_md1',1,'']]],
-  ['to_20our_20mechatronics_20term_20project_20created_20by_20evan_20long_20and_20sydney_20alexander_7',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]],
-  ['top_20level_20control_3a_8',['Top Level Control:',['../index.html#autotoc_md5',1,'']]]
+  ['returnstate_0',['returnState',['../class_controller_1_1_controller.html#a4299e3263502a963d8286a483fa282b9',1,'Controller::Controller']]],
+  ['rightencoder_1',['rightEncoder',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#aacddd036a22899296564ed2a58f4fd15',1,'ME405 Term Project v5::Main']]],
+  ['rightmotor_2',['rightMotor',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#acd981f65c9be485438e38bfc6b508156',1,'ME405 Term Project v5::Main']]],
+  ['run_3',['run',['../class_com___task_1_1_com___task.html#ab8caa300e4ddd2a5518b6803fca31cf8',1,'Com_Task.Com_Task.run()'],['../class_controller_1_1_controller.html#a774cd37a82e6cddf1a0cef2616629f95',1,'Controller.Controller.run()'],['../class_i_r___sense___task_1_1_i_r___sense___task.html#a2fbec65f3236763fd47bec98f7400fa1',1,'IR_Sense_Task.IR_Sense_Task.run()'],['../class_motor___task_1_1_motor___task.html#a98e23583d5654e8c42e45e46bac33acc',1,'Motor_Task.Motor_Task.run()']]]
 ];

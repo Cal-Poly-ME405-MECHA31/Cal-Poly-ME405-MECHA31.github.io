@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['pid_0',['PID',['../class_p_i_d_1_1_p_i_d.html',1,'PID']]],
-  ['project_1',['ME405 MECHA31 TERM PROJECT',['../index.html',1,'']]],
-  ['project_20created_20by_20evan_20long_20and_20sydney_20alexander_2',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]]
+  ['nslp_5fpin_0',['nSLP_pin',['../class_motor_1_1_motor.html#a8db169519cda9dd417625f3a7fbd9f7e',1,'Motor::Motor']]]
 ];

@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['main_0',['Main',['../class_m_e405_01_term_01_project_01v5_1_1_main.html',1,'ME405 Term Project v5']]],
-  ['main_1',['main',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a22e913e2e002fd9143e94c8edc7c532b',1,'ME405 Term Project v5::Main']]],
-  ['me405_20mecha31_20term_20project_2',['ME405 MECHA31 TERM PROJECT',['../index.html',1,'']]],
-  ['mecha31_20term_20project_3',['ME405 MECHA31 TERM PROJECT',['../index.html',1,'']]],
-  ['mechatronics_20term_20project_20created_20by_20evan_20long_20and_20sydney_20alexander_4',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]],
-  ['motor_5',['Motor',['../class_motor_1_1_motor.html',1,'Motor']]],
-  ['motor_5ftask_6',['Motor_Task',['../class_motor___task_1_1_motor___task.html',1,'Motor_Task']]]
+  ['last_5fts_0',['last_ts',['../class_encoder_1_1_encoder.html#a18103cf6c8f6f113a63c755cd93dbec4',1,'Encoder::Encoder']]],
+  ['leftencoder_1',['leftEncoder',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a2962256396b645e0affd46f031401df8',1,'ME405 Term Project v5::Main']]],
+  ['leftmotor_2',['leftMotor',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#ab652df5d5136a399db90f19bcebdff3e',1,'ME405 Term Project v5::Main']]],
+  ['level_20control_3a_3',['Top Level Control:',['../index.html#autotoc_md5',1,'']]],
+  ['linepid_4',['linePID',['../class_controller_1_1_controller.html#a65e55fd2c9466a6e86bd0871534b2b0f',1,'Controller::Controller']]],
+  ['linespeed_5',['lineSpeed',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a48c9ae7762dbe68f85a3ff4beac98bb9',1,'ME405 Term Project v5::Main']]],
+  ['links_20to_20each_2011_20classes_3a_6',['Links to Each 11 Classes:',['../index.html#autotoc_md1',1,'']]],
+  ['logindex_7',['logIndex',['../class_motor___task_1_1_motor___task.html#a726bdbf39102392802b1ff2b68309d28',1,'Motor_Task::Motor_Task']]],
+  ['long_20and_20sydney_20alexander_8',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]]
 ];

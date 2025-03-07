@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['run_0',['run',['../class_controller_1_1_controller.html#a774cd37a82e6cddf1a0cef2616629f95',1,'Controller::Controller']]]
+  ['get_5fvelocity_0',['get_velocity',['../class_encoder_1_1_encoder.html#aed5c0bf1fd354aa5a91aba6e9cc4c229',1,'Encoder::Encoder']]]
 ];

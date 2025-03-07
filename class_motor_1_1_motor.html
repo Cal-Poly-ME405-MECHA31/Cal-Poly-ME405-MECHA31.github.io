@@ -110,6 +110,9 @@ $(function(){initNavTree('class_motor_1_1_motor.html',''); initResizable(true); 
   <div class="headertitle"><div class="title">Motor.Motor Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>The <a class="el" href="class_motor_1_1_motor.html" title="The Motor task is a simple motor driver.">Motor</a> task is a simple motor driver.  
+ <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -125,20 +128,26 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa607f1a9f2a0165124537af8eea39348" id="r_aa607f1a9f2a0165124537af8eea39348"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa607f1a9f2a0165124537af8eea39348">PWM_pin</a> = timer.channel(chan, pin=PWM, mode=Timer.PWM, pulse_width_percent=0)</td></tr>
+<tr class="memdesc:aa607f1a9f2a0165124537af8eea39348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer channel object for controlling motor effort.  <br /></td></tr>
 <tr class="separator:aa607f1a9f2a0165124537af8eea39348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad65e31a3a55f417d1b165b9c6d20af2a" id="r_ad65e31a3a55f417d1b165b9c6d20af2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad65e31a3a55f417d1b165b9c6d20af2a">DIR_pin</a> = Pin(DIR, mode=Pin.OUT_PP, value=0)</td></tr>
+<tr class="memdesc:ad65e31a3a55f417d1b165b9c6d20af2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin object for assigning motor direction.  <br /></td></tr>
 <tr class="separator:ad65e31a3a55f417d1b165b9c6d20af2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8db169519cda9dd417625f3a7fbd9f7e" id="r_a8db169519cda9dd417625f3a7fbd9f7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8db169519cda9dd417625f3a7fbd9f7e">nSLP_pin</a> = Pin(nSLP, mode=Pin.OUT_PP, value=0)</td></tr>
+<tr class="memdesc:a8db169519cda9dd417625f3a7fbd9f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin object for enabling or disabling motor.  <br /></td></tr>
 <tr class="separator:a8db169519cda9dd417625f3a7fbd9f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:abd872345d497e44a65b51a5a3f731c76" id="r_abd872345d497e44a65b51a5a3f731c76"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd872345d497e44a65b51a5a3f731c76">MAX_EFFORT</a> = 100</td></tr>
+<tr class="memdesc:abd872345d497e44a65b51a5a3f731c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saturation value for allowable effort.  <br /></td></tr>
 <tr class="separator:abd872345d497e44a65b51a5a3f731c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00009">9</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<div class="textblock"><p>The <a class="el" href="class_motor_1_1_motor.html" title="The Motor task is a simple motor driver.">Motor</a> task is a simple motor driver. </p>
+<p>It allows enable/disable as well as setting the current effort. </p>
+
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00010">10</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a678a94e6082fa395b13950c170ac1b27" name="a678a94e6082fa395b13950c170ac1b27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a678a94e6082fa395b13950c170ac1b27">&#9670;&#160;</a></span>__init__()</h2>
@@ -179,7 +188,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00013">13</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00014">14</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 
 </div>
 </div>
@@ -199,7 +208,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00033">33</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00034">34</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 
 </div>
 </div>
@@ -218,7 +227,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00030">30</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00031">31</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 
 </div>
 </div>
@@ -241,7 +250,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00019">19</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00020">20</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 
 </div>
 </div>
@@ -258,7 +267,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00016">16</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<p>Pin object for assigning motor direction. </p>
+
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00017">17</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 
 </div>
 </div>
@@ -282,7 +293,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00011">11</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<p>Saturation value for allowable effort. </p>
+
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00012">12</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 
 </div>
 </div>
@@ -298,7 +311,10 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00017">17</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<p>Pin object for enabling or disabling motor. </p>
+<p>High = enabled, low = disabled </p>
+
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00018">18</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 
 </div>
 </div>
@@ -314,7 +330,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00015">15</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
+<p>Timer channel object for controlling motor effort. </p>
+
+<p class="definition">Definition at line <a class="el" href="_motor_8py_source.html#l00016">16</a> of file <a class="el" href="_motor_8py_source.html">Motor.py</a>.</p>
 
 </div>
 </div>

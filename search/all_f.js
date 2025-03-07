@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['returnstate_0',['returnState',['../class_controller_1_1_controller.html#a60b05a9d234a745d4ded5e0d2a668331',1,'Controller::Controller']]],
-  ['rightencoder_1',['rightEncoder',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#aacddd036a22899296564ed2a58f4fd15',1,'ME405 Term Project v5::Main']]],
-  ['rightmotor_2',['rightMotor',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#acd981f65c9be485438e38bfc6b508156',1,'ME405 Term Project v5::Main']]],
-  ['run_3',['run',['../class_controller_1_1_controller.html#a774cd37a82e6cddf1a0cef2616629f95',1,'Controller::Controller']]]
+  ['offset_0',['offset',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a921cd6c8c71a6a7fc7b92452d62e4fee',1,'ME405 Term Project v5::Main']]],
+  ['our_20mechatronics_20term_20project_20created_20by_20evan_20long_20and_20sydney_20alexander_1',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]],
+  ['outbuf_2',['outBuf',['../class_com___task_1_1_com___task.html#a5b7ab9c2e8f3d3466d1ef8f468347cec',1,'Com_Task::Com_Task']]],
+  ['overall_20task_20diagram_3a_3',['Overall Task Diagram:',['../index.html#autotoc_md3',1,'']]]
 ];
