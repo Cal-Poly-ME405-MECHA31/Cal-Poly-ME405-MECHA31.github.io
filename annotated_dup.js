@@ -10,7 +10,7 @@ var annotated_dup =
       [ "Encoder", "class_encoder_1_1_encoder.html", "class_encoder_1_1_encoder" ]
     ] ],
     [ "IMU_Tracker", null, [
-      [ "IMU_Tracker", "class_i_m_u___tracker_1_1_i_m_u___tracker.html", null ]
+      [ "IMU_Tracker", "class_i_m_u___tracker_1_1_i_m_u___tracker.html", "class_i_m_u___tracker_1_1_i_m_u___tracker" ]
     ] ],
     [ "IR_Sense_Task", null, [
       [ "IR_Sense_Task", "class_i_r___sense___task_1_1_i_r___sense___task.html", "class_i_r___sense___task_1_1_i_r___sense___task" ]
@@ -28,9 +28,9 @@ var annotated_dup =
       [ "PID", "class_p_i_d_1_1_p_i_d.html", "class_p_i_d_1_1_p_i_d" ]
     ] ],
     [ "Ultra_Sense_Task", null, [
-      [ "Ultra_Sense_Task", "class_ultra___sense___task_1_1_ultra___sense___task.html", null ]
+      [ "Ultra_Sense_Task", "class_ultra___sense___task_1_1_ultra___sense___task.html", "class_ultra___sense___task_1_1_ultra___sense___task" ]
     ] ],
     [ "XY_Tracking", null, [
-      [ "XY_Tracking", "class_x_y___tracking_1_1_x_y___tracking.html", null ]
+      [ "XY_Tracking", "class_x_y___tracking_1_1_x_y___tracking.html", "class_x_y___tracking_1_1_x_y___tracking" ]
     ] ]
 ];

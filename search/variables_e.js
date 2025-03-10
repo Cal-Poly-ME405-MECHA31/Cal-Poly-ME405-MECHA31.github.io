@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['serial_0',['serial',['../class_com___task_1_1_com___task.html#a7eade7f363d9a557792e54f5a9da191e',1,'Com_Task::Com_Task']]],
-  ['startheading_1',['startHeading',['../class_controller_1_1_controller.html#a79383621556e83f09e545934f5c887a1',1,'Controller::Controller']]],
-  ['startposition_2',['startPosition',['../class_controller_1_1_controller.html#a3a11d432d6fcbdec47f90b6997c2ef70',1,'Controller::Controller']]],
-  ['state_3',['state',['../class_com___task_1_1_com___task.html#ab052e931201318dc2ac09e55cfbad0c6',1,'Com_Task.Com_Task.state'],['../class_controller_1_1_controller.html#a024dce78fb3e60f5cfbd2ab60f14dbd3',1,'Controller.Controller.state'],['../class_motor___task_1_1_motor___task.html#a6e90bc58a893b9b67d6ad5857b910c80',1,'Motor_Task.Motor_Task.state']]],
-  ['strength_4',['strength',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a7b6c0e1bcc722f49ce77a44f533f6538',1,'ME405 Term Project v5::Main']]],
-  ['strength_5fave_5',['STRENGTH_AVE',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a1e572b13480ad1ed0ed4f0ccd6559b71',1,'IR_Sense_Task::IR_Sense_Task']]]
+  ['rawdata_0',['rawData',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a79cb7a02ea0578d34cad2b2be143b21d',1,'IR_Sense_Task.IR_Sense_Task.rawData'],['../class_ultra___sense___task_1_1_ultra___sense___task.html#aacf5c3db7ee2762f1675a297c0c11721',1,'Ultra_Sense_Task.Ultra_Sense_Task.rawData']]],
+  ['referenced_1',['referenced',['../class_i_r___sense___task_1_1_i_r___sense___task.html#af0057e2019fcaa23d659d6c6f5d20a21',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['reflectance_2',['reflectance',['../class_i_r___sense___task_1_1_i_r___sense___task.html#af76899a775ba153b5bbe3036ce522184',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['returnstate_3',['returnState',['../class_controller_1_1_controller.html#a4299e3263502a963d8286a483fa282b9',1,'Controller::Controller']]],
+  ['rightencoder_4',['rightEncoder',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#aacddd036a22899296564ed2a58f4fd15',1,'ME405 Term Project v5::Main']]],
+  ['rightmotor_5',['rightMotor',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#acd981f65c9be485438e38bfc6b508156',1,'ME405 Term Project v5::Main']]]
 ];

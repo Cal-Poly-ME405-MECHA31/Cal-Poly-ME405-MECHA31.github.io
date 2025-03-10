@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['targetposition_0',['targetPosition',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a442af6a330179f3e3691742a2e8a0c4f',1,'ME405 Term Project v5::Main']]],
-  ['targetvelocity_1',['targetVelocity',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a164ede44e70ecd8138219d44652dd4ad',1,'ME405 Term Project v5::Main']]],
-  ['timestamp_2',['timeStamp',['../class_controller_1_1_controller.html#a7b42dbf192fe00cebefb33c6493072ea',1,'Controller.Controller.timeStamp'],['../class_p_i_d_1_1_p_i_d.html#ab7265d590e21be8b5ea58fbb9dc18ddb',1,'PID.PID.timeStamp']]],
-  ['toggle_5fperiod_3',['TOGGLE_PERIOD',['../class_com___task_1_1_com___task.html#a27d08d03d194656bba1672b501fa3e42',1,'Com_Task::Com_Task']]],
-  ['togglets_4',['toggleTS',['../class_com___task_1_1_com___task.html#aa50b870824e1c4b0d0460ce87e9646ca',1,'Com_Task::Com_Task']]],
-  ['turn_5finc_5',['TURN_INC',['../class_com___task_1_1_com___task.html#ac5dd7e2f9a677e9211d6e72de9a781ff',1,'Com_Task::Com_Task']]]
+  ['sensor_5fcount_0',['SENSOR_COUNT',['../class_ultra___sense___task_1_1_ultra___sense___task.html#a300050db3b318384c331896b985cba51',1,'Ultra_Sense_Task::Ultra_Sense_Task']]],
+  ['serial_1',['serial',['../class_com___task_1_1_com___task.html#a7eade7f363d9a557792e54f5a9da191e',1,'Com_Task::Com_Task']]],
+  ['startheading_2',['startHeading',['../class_controller_1_1_controller.html#a79383621556e83f09e545934f5c887a1',1,'Controller.Controller.startHeading'],['../class_x_y___tracking_1_1_x_y___tracking.html#ad2a77023724f074c61a722471d7c8818',1,'XY_Tracking.XY_Tracking.startHeading']]],
+  ['startposition_3',['startPosition',['../class_controller_1_1_controller.html#a3a11d432d6fcbdec47f90b6997c2ef70',1,'Controller::Controller']]],
+  ['state_4',['state',['../class_com___task_1_1_com___task.html#ab052e931201318dc2ac09e55cfbad0c6',1,'Com_Task.Com_Task.state'],['../class_controller_1_1_controller.html#a024dce78fb3e60f5cfbd2ab60f14dbd3',1,'Controller.Controller.state'],['../class_i_m_u___tracker_1_1_i_m_u___tracker.html#a1699c7a88ae1df502b626ed7b865a156',1,'IMU_Tracker.IMU_Tracker.state'],['../class_i_r___sense___task_1_1_i_r___sense___task.html#afcae39b97480a07c2793ffd7c990c41a',1,'IR_Sense_Task.IR_Sense_Task.state'],['../class_motor___task_1_1_motor___task.html#a6e90bc58a893b9b67d6ad5857b910c80',1,'Motor_Task.Motor_Task.state'],['../class_ultra___sense___task_1_1_ultra___sense___task.html#a86550b06ab27ccce630acb6519a40bb4',1,'Ultra_Sense_Task.Ultra_Sense_Task.state'],['../class_x_y___tracking_1_1_x_y___tracking.html#a394bbc7c2424301150e9ad0c3b773586',1,'XY_Tracking.XY_Tracking.state']]],
+  ['strength_5',['strength',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a7b6c0e1bcc722f49ce77a44f533f6538',1,'ME405 Term Project v5::Main']]],
+  ['strength_5fave_6',['STRENGTH_AVE',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a1e572b13480ad1ed0ed4f0ccd6559b71',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['strength_5findex_7',['strength_index',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a98d3a54781dcebe05c1cc1739143bdaa',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['strength_5flist_8',['strength_list',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a5861b77d763bf0851c6c50af149c73c8',1,'IR_Sense_Task::IR_Sense_Task']]]
 ];

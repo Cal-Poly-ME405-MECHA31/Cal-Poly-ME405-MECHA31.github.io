@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bias_0',['BIAS',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a99a2b1728e2206aebb1d12bd93a579d8',1,'IR_Sense_Task::IR_Sense_Task']]]
+  ['address_0',['address',['../class_i_m_u___tracker_1_1_i_m_u___tracker.html#ad268d19687807f87dba5b5bfc1ebca78',1,'IMU_Tracker::IMU_Tracker']]]
 ];

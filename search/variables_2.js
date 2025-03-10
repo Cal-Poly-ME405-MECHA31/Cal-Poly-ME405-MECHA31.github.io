@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['dataqueue_0',['dataQueue',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a5219642b067f4c015eaefbe0073d753c',1,'ME405 Term Project v5::Main']]],
-  ['delta_1',['delta',['../class_encoder_1_1_encoder.html#a2308e3a2ab31eae5118dadfe5a955bf2',1,'Encoder::Encoder']]],
-  ['der_5fave_2',['DER_AVE',['../class_controller_1_1_controller.html#a48d29c3bc570c6d8f715c9f2ae5f403e',1,'Controller.Controller.DER_AVE'],['../class_motor___task_1_1_motor___task.html#aac03bb6334304c8807ba7f9bf51353f9',1,'Motor_Task.Motor_Task.DER_AVE']]],
-  ['der_5findex_3',['der_index',['../class_p_i_d_1_1_p_i_d.html#a1d067316aa67f3383024665f3f0f56d7',1,'PID::PID']]],
-  ['der_5flist_4',['der_list',['../class_p_i_d_1_1_p_i_d.html#acc440587c2f2f6e52574b90fd585f87d',1,'PID::PID']]],
-  ['derave_5',['derAve',['../class_p_i_d_1_1_p_i_d.html#a7e9b753c0959f84e4e6863d1f7bc2bc7',1,'PID::PID']]],
-  ['dir_5fpin_6',['DIR_pin',['../class_motor_1_1_motor.html#ad65e31a3a55f417d1b165b9c6d20af2a',1,'Motor::Motor']]],
-  ['distance_7',['distance',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a95fbbfcf64903ea6a60cbdef3464daf3',1,'ME405 Term Project v5::Main']]],
-  ['dt_8',['dt',['../class_encoder_1_1_encoder.html#a2129f30fc7236307fbe00c698e549bff',1,'Encoder::Encoder']]]
+  ['calibrated_0',['calibrated',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a8b0c07e1d2a57d0f0d45405a75c3a0c5',1,'ME405 Term Project v5::Main']]],
+  ['chiralindex_1',['chiralIndex',['../class_motor___task_1_1_motor___task.html#a64452224eded23fdba9e085fbcb5bdc1',1,'Motor_Task::Motor_Task']]],
+  ['controlindex_2',['controlIndex',['../class_motor___task_1_1_motor___task.html#a794112fd04c30936d76bf45b205780b2',1,'Motor_Task::Motor_Task']]],
+  ['count_3',['count',['../class_encoder_1_1_encoder.html#a1bedd877695236a5b62149078bf55ee9',1,'Encoder::Encoder']]],
+  ['ctrlstate_4',['ctrlState',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a792bb45c9c6f6e642bac59cb860d6037',1,'ME405 Term Project v5::Main']]]
 ];

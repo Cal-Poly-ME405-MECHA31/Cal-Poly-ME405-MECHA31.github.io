@@ -136,43 +136,48 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a11e8ef4b3cb50f21a1fecd8d4732cccf" id="r_a11e8ef4b3cb50f21a1fecd8d4732cccf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11e8ef4b3cb50f21a1fecd8d4732cccf">strength</a> = strength</td></tr>
 <tr class="separator:a11e8ef4b3cb50f21a1fecd8d4732cccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcae39b97480a07c2793ffd7c990c41a" id="r_afcae39b97480a07c2793ffd7c990c41a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcae39b97480a07c2793ffd7c990c41a">state</a> = 0</td></tr>
+<tr class="memdesc:afcae39b97480a07c2793ffd7c990c41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next state to be run by the state machine.  <br /></td></tr>
 <tr class="separator:afcae39b97480a07c2793ffd7c990c41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7375d02440af1ef490458b366c87c8c" id="r_aa7375d02440af1ef490458b366c87c8c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7375d02440af1ef490458b366c87c8c">index</a> = 0</td></tr>
+<tr class="memdesc:aa7375d02440af1ef490458b366c87c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index in list of the current sensor being read from the array.  <br /></td></tr>
 <tr class="separator:aa7375d02440af1ef490458b366c87c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05dae1f01654d44be4ab03e0f4deadb2" id="r_a05dae1f01654d44be4ab03e0f4deadb2"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05dae1f01654d44be4ab03e0f4deadb2">pinNums</a> = [Pin.cpu.C10, Pin.cpu.C12, Pin.cpu.A15, Pin.cpu.H0, Pin.cpu.H1, Pin.cpu.C3, Pin.cpu.C11]</td></tr>
+<tr class="memdesc:a05dae1f01654d44be4ab03e0f4deadb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of the pin identifier objects associated with each IR sensor.  <br /></td></tr>
 <tr class="separator:a05dae1f01654d44be4ab03e0f4deadb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acacb909ed1e0591b64fc0da732efb96d" id="r_acacb909ed1e0591b64fc0da732efb96d"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acacb909ed1e0591b64fc0da732efb96d">pinLines</a> = [10, 12, 15, 0, 1, 3, 11]</td></tr>
-<tr class="separator:acacb909ed1e0591b64fc0da732efb96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0057e2019fcaa23d659d6c6f5d20a21" id="r_af0057e2019fcaa23d659d6c6f5d20a21"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0057e2019fcaa23d659d6c6f5d20a21">referenced</a> = 0</td></tr>
+<tr class="memdesc:af0057e2019fcaa23d659d6c6f5d20a21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to indicate the current state of IR sensor referencing.  <br /></td></tr>
 <tr class="separator:af0057e2019fcaa23d659d6c6f5d20a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5f279e3596ef8c9b21f380205d918e4" id="r_af5f279e3596ef8c9b21f380205d918e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5f279e3596ef8c9b21f380205d918e4">index2</a> = int(len(self.pinNums)/2)</td></tr>
-<tr class="separator:af5f279e3596ef8c9b21f380205d918e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79cb7a02ea0578d34cad2b2be143b21d" id="r_a79cb7a02ea0578d34cad2b2be143b21d"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79cb7a02ea0578d34cad2b2be143b21d">rawData</a> = []</td></tr>
+<tr class="memdesc:a79cb7a02ea0578d34cad2b2be143b21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of most recent measurement of reflectance directly from the sensor, expressed as microseconds of delay.  <br /></td></tr>
 <tr class="separator:a79cb7a02ea0578d34cad2b2be143b21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0830b9c8a490f173df4609c419ec5b7" id="r_aa0830b9c8a490f173df4609c419ec5b7"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0830b9c8a490f173df4609c419ec5b7">pinList</a> = []</td></tr>
+<tr class="memdesc:aa0830b9c8a490f173df4609c419ec5b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of pin objects for toggling the pins from input to output.  <br /></td></tr>
 <tr class="separator:aa0830b9c8a490f173df4609c419ec5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7865ab23f9ed3fa076c22f4f9c7c03d6" id="r_a7865ab23f9ed3fa076c22f4f9c7c03d6"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7865ab23f9ed3fa076c22f4f9c7c03d6">interruptPins</a> = []</td></tr>
+<tr class="memdesc:a7865ab23f9ed3fa076c22f4f9c7c03d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of ExtInt objects for enabling and disabling the interrupt callabacks.  <br /></td></tr>
 <tr class="separator:a7865ab23f9ed3fa076c22f4f9c7c03d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6338c29343246de4e39dacd7b75943d5" id="r_a6338c29343246de4e39dacd7b75943d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6338c29343246de4e39dacd7b75943d5">callback</a></td></tr>
 <tr class="separator:a6338c29343246de4e39dacd7b75943d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3224ba0e696e8a101bbcbf95d17d5cba" id="r_a3224ba0e696e8a101bbcbf95d17d5cba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3224ba0e696e8a101bbcbf95d17d5cba">prevIndex</a> = -1</td></tr>
+<tr class="memdesc:a3224ba0e696e8a101bbcbf95d17d5cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index of the last sensor that was read, to identify when the callback has completed its reading.  <br /></td></tr>
 <tr class="separator:a3224ba0e696e8a101bbcbf95d17d5cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dae35dc298e707bace2c2960a625d32" id="r_a9dae35dc298e707bace2c2960a625d32"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dae35dc298e707bace2c2960a625d32">prevIndex2</a> = -1</td></tr>
-<tr class="separator:a9dae35dc298e707bace2c2960a625d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af76899a775ba153b5bbe3036ce522184" id="r_af76899a775ba153b5bbe3036ce522184"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af76899a775ba153b5bbe3036ce522184">reflectance</a> = []</td></tr>
+<tr class="memdesc:af76899a775ba153b5bbe3036ce522184"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of reflectance measurements scaled by the white and black references between 0 and 100.  <br /></td></tr>
 <tr class="separator:af76899a775ba153b5bbe3036ce522184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ffca45c46bfc98134a5e62b9eac1d5e" id="r_a7ffca45c46bfc98134a5e62b9eac1d5e"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ffca45c46bfc98134a5e62b9eac1d5e">whiteRef</a> = []</td></tr>
+<tr class="memdesc:a7ffca45c46bfc98134a5e62b9eac1d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of direct reflectance measurements taken over a white reference.  <br /></td></tr>
 <tr class="separator:a7ffca45c46bfc98134a5e62b9eac1d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb2eb52ecca9464e14903311821c2d4" id="r_adcb2eb52ecca9464e14903311821c2d4"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcb2eb52ecca9464e14903311821c2d4">blackRef</a> = []</td></tr>
+<tr class="memdesc:adcb2eb52ecca9464e14903311821c2d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of direct reflectance measurements taken over a black reference.  <br /></td></tr>
 <tr class="separator:adcb2eb52ecca9464e14903311821c2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5861b77d763bf0851c6c50af149c73c8" id="r_a5861b77d763bf0851c6c50af149c73c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5861b77d763bf0851c6c50af149c73c8">strength_list</a> = array('i', <a class="el" href="#a1e572b13480ad1ed0ed4f0ccd6559b71">IR_Sense_Task.STRENGTH_AVE</a>*[0])</td></tr>
+<tr class="memdesc:a5861b77d763bf0851c6c50af149c73c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of last several strength values that will be averaged together.  <br /></td></tr>
 <tr class="separator:a5861b77d763bf0851c6c50af149c73c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98d3a54781dcebe05c1cc1739143bdaa" id="r_a98d3a54781dcebe05c1cc1739143bdaa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98d3a54781dcebe05c1cc1739143bdaa">strength_index</a> = 0</td></tr>
+<tr class="memdesc:a98d3a54781dcebe05c1cc1739143bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current index to be set in the strength_list list.  <br /></td></tr>
 <tr class="separator:a98d3a54781dcebe05c1cc1739143bdaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9962404183255d2dc8ff3470c576bf05" id="r_a9962404183255d2dc8ff3470c576bf05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9962404183255d2dc8ff3470c576bf05">timeStamp</a> = ticks_us()</td></tr>
 <tr class="separator:a9962404183255d2dc8ff3470c576bf05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c9983bec0c6185f57e05a77463d19e" id="r_ae1c9983bec0c6185f57e05a77463d19e"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1c9983bec0c6185f57e05a77463d19e">line1</a> = self.pinLines[self.index]</td></tr>
-<tr class="separator:ae1c9983bec0c6185f57e05a77463d19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -319,7 +324,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00084">84</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>List of direct reflectance measurements taken over a black reference. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00080">80</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -335,7 +342,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00064">64</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00062">62</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -383,23 +390,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Index in list of the current sensor being read from the array. </p>
+
 <p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00038">38</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
-
-</div>
-</div>
-<a id="af5f279e3596ef8c9b21f380205d918e4" name="af5f279e3596ef8c9b21f380205d918e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5f279e3596ef8c9b21f380205d918e4">&#9670;&#160;</a></span>index2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">IR_Sense_Task.IR_Sense_Task.index2 = int(len(self.pinNums)/2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00055">55</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -415,23 +408,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00062">62</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>List of ExtInt objects for enabling and disabling the interrupt callabacks. </p>
 
-</div>
-</div>
-<a id="ae1c9983bec0c6185f57e05a77463d19e" name="ae1c9983bec0c6185f57e05a77463d19e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1c9983bec0c6185f57e05a77463d19e">&#9670;&#160;</a></span>line1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">list IR_Sense_Task.IR_Sense_Task.line1 = self.pinLines[self.index]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00113">113</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00060">60</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -477,22 +456,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acacb909ed1e0591b64fc0da732efb96d" name="acacb909ed1e0591b64fc0da732efb96d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acacb909ed1e0591b64fc0da732efb96d">&#9670;&#160;</a></span>pinLines</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">list IR_Sense_Task.IR_Sense_Task.pinLines = [10, 12, 15, 0, 1, 3, 11]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00052">52</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
-
-</div>
-</div>
 <a id="aa0830b9c8a490f173df4609c419ec5b7" name="aa0830b9c8a490f173df4609c419ec5b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0830b9c8a490f173df4609c419ec5b7">&#9670;&#160;</a></span>pinList</h2>
 
@@ -505,7 +468,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00061">61</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>List of pin objects for toggling the pins from input to output. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00059">59</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -520,6 +485,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>List of the pin identifier objects associated with each IR sensor. </p>
 
 <p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00051">51</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
@@ -537,23 +504,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00079">79</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>The index of the last sensor that was read, to identify when the callback has completed its reading. </p>
 
-</div>
-</div>
-<a id="a9dae35dc298e707bace2c2960a625d32" name="a9dae35dc298e707bace2c2960a625d32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dae35dc298e707bace2c2960a625d32">&#9670;&#160;</a></span>prevIndex2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int IR_Sense_Task.IR_Sense_Task.prevIndex2 = -1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00080">80</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00076">76</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -569,7 +522,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00057">57</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>List of most recent measurement of reflectance directly from the sensor, expressed as microseconds of delay. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00055">55</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -585,7 +540,10 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00053">53</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>Flag to indicate the current state of IR sensor referencing. </p>
+<p>0 = no reference, 1 = white reference only, 2 = both references set </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00052">52</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -601,7 +559,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00082">82</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>List of reflectance measurements scaled by the white and black references between 0 and 100. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00078">78</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -616,6 +576,9 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Next state to be run by the state machine. </p>
+<p>0 = initialization, 1 = waiting, 2 = reset, 3 = sensing </p>
 
 <p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00029">29</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
@@ -675,7 +638,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00092">92</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>Current index to be set in the strength_list list. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00088">88</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -691,7 +656,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00091">91</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>List of last several strength values that will be averaged together. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00087">87</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -707,7 +674,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00112">112</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00108">108</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
@@ -723,7 +690,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00083">83</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
+<p>List of direct reflectance measurements taken over a white reference. </p>
+
+<p class="definition">Definition at line <a class="el" href="_i_r___sense___task_8py_source.html#l00079">79</a> of file <a class="el" href="_i_r___sense___task_8py_source.html">IR_Sense_Task.py</a>.</p>
 
 </div>
 </div>
