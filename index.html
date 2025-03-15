@@ -147,20 +147,27 @@ Class Descriptions for Context:</h2>
 <h2><a class="anchor" id="autotoc_md3"></a>
 Wiring Diagram:</h2>
 <p><img src="https://cal-poly-me405-mecha31.github.io/Wiring%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 1. Wiring diagram for our Romi robot. Wires are colored by device, and ports are arranged on the nucleo in the actual order they are physically arranged. <br  />
+ Using this diagram, and the code included on this webpage, future students could recreate or build on our implementation.</p>
 <h2><a class="anchor" id="autotoc_md4"></a>
 Overall Task Diagram:</h2>
 <p><img src="https://cal-poly-me405-mecha31.github.io/Task%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 2. Task diagram for Romi's firmware. In this diagram, the cooperative tasks that are run concurrently are represented as boxes, and the objects used to commuincate between them are shown as arrows. Also included are the frequency and priority associated with each task, as provided to the scheduler.</p>
 <h2><a class="anchor" id="autotoc_md5"></a>
 State Space Diagrams:</h2>
 <h3><a class="anchor" id="autotoc_md6"></a>
 Top Level Control:</h3>
 <p><img src="https://cal-poly-me405-mecha31.github.io/Top%20Level%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 3. Finite state machine diagram for the top level of code. In this diagram, states are represented as circles, and transitions between the are shown as arrows. The actual logic for this state machine is implemented in the Com Task, but the effects are comminicated to every task through the ctrlState object.</p>
 <h3><a class="anchor" id="autotoc_md7"></a>
 Course Controller:</h3>
 <p><img src="https://cal-poly-me405-mecha31.github.io/Controller%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 4. Finite state machine diagram for the course controller. The logic is straightforward: advance around the circle or return to the waiting state. <br  />
+ In the transitions around the circle, the conditions are simplified to reduce space. The conditions can be interpreted as follows: 'line sensor' evaluates true when the reflectance from the IR sensors rises above/below a threshold, 'IMU' evaluates true when the IMU returns a heading angle within a threshold from a target heading, 'encoder' evaluates true after the encoder increments a certain value, and 'distance sensor' evaluates true when one of the ultrasonic distance sensors senses a distance above/below a set threshold.</p>
 <h3><a class="anchor" id="autotoc_md8"></a>
 Sensor Driver (Abstract):</h3>
-<p><img src="https://cal-poly-me405-mecha31.github.io/Sensor%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/> </p>
+<p><img src="https://cal-poly-me405-mecha31.github.io/Sensor%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 5. Finite state machine diagram for each of the three sensors: the IR sensors, the IMU, and the ultrasonic sensors. Since the logic is the same for all of the sensors, they are shown here as one abstract diagram. 'Read' in this case refers to calculating offset, reading heading, or sensing distance for the IR sensors, IMU, and ultrasnonic sensor, respectively. </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
