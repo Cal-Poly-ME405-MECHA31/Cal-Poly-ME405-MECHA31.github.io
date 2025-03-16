@@ -187,6 +187,10 @@ Heading Controller:</h3>
 <p>Figure 7. Control block diagram for the entire system when the code is in a heading tracking state. Note the similarity to the line follow control diagram. In the case of heading control, we did include integral control, because we needed to ensure a higher level of accuracy than proportional control could provide alone.</p>
 <pre>
 
+</pre><p><img src="https://cal-poly-me405-mecha31.github.io/Velocity%20Steps.PNG" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 8. To provide a starting place for our feedforward gains in the previous controllers, we used the microcontroller to measure the dynamics of the system, extracted the data via the serial connection, and performed a regression to determine physical motor characteristics from the collected data. The displayed plot is an example of some of the raw data we collected from the microcontroller. In this plot, we did a step response of various forward voltages applied to the motors, and recorded the resulting speed as a function of time. Using this data we were able to approximate the gain and time constant of the dynamic system modeled as first order.</p>
+<pre>
+
 </pre> </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
