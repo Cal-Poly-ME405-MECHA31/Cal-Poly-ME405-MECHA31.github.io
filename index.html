@@ -144,27 +144,50 @@ Class Descriptions for Context:</h2>
 <li>Ultrasonic Diver - A driver for the ultrasonic sensors installed on Romi. The ultrasonic sensors are the HC-SR04 model, which means they behave in a very similar way to the IR sensors.</li>
 <li>XY Integrator - A task to continuously integrate velocity into actual cartesian coordinates. The XY coordinates are used for error handling.</li>
 </ol>
-<div></div><div></div><h2><a class="anchor" id="autotoc_md3"></a>
-<div>Wiring Diagram:</div></h2>
-<div></div><div><img src="https://cal-poly-me405-mecha31.github.io/Wiring%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></div><div>Figure 1. Wiring diagram for our Romi robot. Wires are colored by device, and ports are arranged on the nucleo in the actual order they are physically arranged. <br  />
- Using this diagram, and the code included on this webpage, future students could recreate or build on our implementation. We found that the mechanical implementation of the robot was not critical to success: our sensors were crudely fixed with tape and plastic scraps. <br  />
-</div><div><div></div></div><div><div></div></div><h2><a class="anchor" id="autotoc_md4"></a>
-<div><div>Overall Task Diagram:</div></div></h2>
-<div><div></div></div><div><div><img src="https://cal-poly-me405-mecha31.github.io/Task%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></div></div><div><div>Figure 2. Task diagram for Romi's firmware. In this diagram, the cooperative tasks that are run concurrently are represented as boxes, and the objects used to commuincate between them are shown as arrows. Also included are the frequency and priority associated with each task, as provided to the scheduler. The task diagram provides visual overview of the code structure and the flow of information through the tasks.</div></div><div><div><div></div></div></div><div><div><div></div></div></div><h2><a class="anchor" id="autotoc_md5"></a>
-<div><div><div>State Machine Diagrams:</div></div></div></h2>
-<div><div><div></div></div></div><div><div><div></div></div></div><h3><a class="anchor" id="autotoc_md6"></a>
-<div><div><div>Top Level Control:</div></div></div></h3>
-<div><div><div></div></div></div><div><div><div><img src="https://cal-poly-me405-mecha31.github.io/Top%20Level%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></div></div></div><div><div><div>Figure 3. Finite state machine diagram for the top level of code. In this diagram, states are represented as circles, and transitions between the are shown as arrows. In this way, program logic can be displayed visually without any specifics of implementation. The state machine shown here is the state machine controlling overall program behavior, such as idle or course following mode. The actual logic for this state machine is implemented in the Com Task, but the effects are comminicated to every task through the ctrlState object.</div></div></div><div><div><div></div></div></div><h3><a class="anchor" id="autotoc_md7"></a>
-<div><div><div>Course Controller:</div></div></div></h3>
-<div><div><div></div></div></div><div><div><div><img src="https://cal-poly-me405-mecha31.github.io/Controller%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></div></div></div><div><div><div>Figure 4. Finite state machine diagram for the course controller. The majority of our efforts to complete the course are contained in this task. The logic is straightforward: advance around the circle or return to the waiting state. In the transitions around the circle, the conditions are simplified to reduce space. The conditions can be interpreted as follows: 'line sensor' evaluates true when the reflectance from the IR sensors rises above/below a threshold, 'IMU' evaluates true when the IMU returns a heading angle within a threshold from a target heading, 'encoder' evaluates true after the encoder increments a certain value, and 'distance sensor' evaluates true when one of the ultrasonic distance sensors senses a distance above/below a set threshold.</div></div></div><div><div><div></div></div></div><h3><a class="anchor" id="autotoc_md8"></a>
-<div><div><div>Sensor Driver (Abstract):</div></div></div></h3>
-<div><div><div></div></div></div><div><div><div><img src="https://cal-poly-me405-mecha31.github.io/Sensor%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></div></div></div><div><div><div>Figure 5. Finite state machine diagram for each of the three sensors: the IR sensors, the IMU, and the ultrasonic sensors. Since the logic is the same for all of the sensors, they are shown here as one abstract diagram. 'Read' in this case refers to calculating offset, reading heading, or sensing distance for the IR sensors, IMU, and ultrasnonic sensor, respectively.</div></div></div><div><div><div><div></div></div></div></div><div><div><div><div></div></div></div></div><h2><a class="anchor" id="autotoc_md9"></a>
-<div><div><div><div>Control Diagrams:</div></div></div></div></h2>
-<div><div><div><div></div></div></div></div><div><div><div><div></div></div></div></div><h3><a class="anchor" id="autotoc_md10"></a>
-<div><div><div><div>Line Follow Controller:</div></div></div></div></h3>
-<div><div><div><div></div></div></div></div><div><div><div><div><img src="https://cal-poly-me405-mecha31.github.io/Line%20Controller.PNG" alt="" style="width: 50%; height: 50%" class="inline"/></div></div></div></div><div><div><div><div>Figure 6. Control block diagram for the entire system when the code is in a line following state. The cascaded PID loops were based on the model presented in lecture. Note that the dynamics have been simplified greatly for brevity: the dynamics are more complex than a SISO function. The constants shown here are pulled from the line following state for the first line of the course. We chose to avoid integral gains on our line following controller to reduce the complicated effects of integral windup and increase reliability.</div></div></div></div><div><div><div><div></div></div></div></div><h3><a class="anchor" id="autotoc_md11"></a>
-<div><div><div><div>Heading Controller:</div></div></div></div></h3>
-<div><div><div><div></div></div></div></div><div><div><div><div><img src="https://cal-poly-me405-mecha31.github.io/Heading%20Controller.PNG" alt="" style="width: 50%; height: 50%" class="inline"/></div></div></div></div><div><div><div><div>Figure 7. Control block diagram for the entire system when the code is in a heading tracking state. Note the similarity to the line follow control diagram. In the case of heading control, we did include integral control, because we needed to ensure a higher level of accuracy than proportional control could provide alone.</div></div></div></div><div><div><div><div><div> </div></div></div></div></div></div></div><!-- PageDoc -->
+<pre>
+
+</pre><h2><a class="anchor" id="autotoc_md3"></a>
+Wiring Diagram:</h2>
+<p><img src="https://cal-poly-me405-mecha31.github.io/Wiring%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 1. Wiring diagram for our Romi robot. Wires are colored by device, and ports are arranged on the nucleo in the actual order they are physically arranged. Using this diagram, and the code included on this webpage, future students could recreate or build on our implementation. We found that the mechanical implementation of the robot was not critical to success: our sensors were crudely fixed with tape and plastic scraps. <br  />
+</p>
+<pre>
+
+</pre><h2><a class="anchor" id="autotoc_md4"></a>
+Overall Task Diagram:</h2>
+<p><img src="https://cal-poly-me405-mecha31.github.io/Task%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 2. Task diagram for Romi's firmware. In this diagram, the cooperative tasks that are run concurrently are represented as boxes, and the objects used to commuincate between them are shown as arrows. Also included are the frequency and priority associated with each task, as provided to the scheduler. The task diagram provides visual overview of the code structure and the flow of information through the tasks.</p>
+<pre>
+
+</pre><h2><a class="anchor" id="autotoc_md5"></a>
+State Machine Diagrams:</h2>
+<h3><a class="anchor" id="autotoc_md6"></a>
+Top Level Control:</h3>
+<p><img src="https://cal-poly-me405-mecha31.github.io/Top%20Level%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 3. Finite state machine diagram for the top level of code. In this diagram, states are represented as circles, and transitions between the are shown as arrows. In this way, program logic can be displayed visually without any specifics of implementation. The state machine shown here is the state machine controlling overall program behavior, such as idle or course following mode. The actual logic for this state machine is implemented in the Com Task, but the effects are comminicated to every task through the ctrlState object.</p>
+<h3><a class="anchor" id="autotoc_md7"></a>
+Course Controller:</h3>
+<p><img src="https://cal-poly-me405-mecha31.github.io/Controller%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 4. Finite state machine diagram for the course controller. The majority of our efforts to complete the course are contained in this task. The logic is straightforward: advance around the circle or return to the waiting state. In the transitions around the circle, the conditions are simplified to reduce space. The conditions can be interpreted as follows: 'line sensor' evaluates true when the reflectance from the IR sensors rises above/below a threshold, 'IMU' evaluates true when the IMU returns a heading angle within a threshold from a target heading, 'encoder' evaluates true after the encoder increments a certain value, and 'distance sensor' evaluates true when one of the ultrasonic distance sensors senses a distance above/below a set threshold.</p>
+<h3><a class="anchor" id="autotoc_md8"></a>
+Sensor Driver (Abstract):</h3>
+<p><img src="https://cal-poly-me405-mecha31.github.io/Sensor%20Diagram.jpg" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 5. Finite state machine diagram for each of the three sensors: the IR sensors, the IMU, and the ultrasonic sensors. Since the logic is the same for all of the sensors, they are shown here as one abstract diagram. 'Read' in this case refers to calculating offset, reading heading, or sensing distance for the IR sensors, IMU, and ultrasnonic sensor, respectively.</p>
+<pre>
+
+</pre><h2><a class="anchor" id="autotoc_md9"></a>
+Control Diagrams:</h2>
+<h3><a class="anchor" id="autotoc_md10"></a>
+Line Follow Controller:</h3>
+<p><img src="https://cal-poly-me405-mecha31.github.io/Line%20Controller.PNG" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 6. Control block diagram for the entire system when the code is in a line following state. The cascaded PID loops were based on the model presented in lecture. Note that the dynamics have been simplified greatly for brevity: the dynamics are more complex than a SISO function. The constants shown here are pulled from the line following state for the first line of the course. We chose to avoid integral gains on our line following controller to reduce the complicated effects of integral windup and increase reliability.</p>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Heading Controller:</h3>
+<p><img src="https://cal-poly-me405-mecha31.github.io/Heading%20Controller.PNG" alt="" style="width: 50%; height: 50%" class="inline"/></p>
+<p>Figure 7. Control block diagram for the entire system when the code is in a heading tracking state. Note the similarity to the line follow control diagram. In the case of heading control, we did include integral control, because we needed to ensure a higher level of accuracy than proportional control could provide alone.</p>
+<pre>
+
+</pre> </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->
