@@ -116,8 +116,7 @@ $(function(){initNavTree('class_motor___task_1_1_motor___task.html',''); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae097193b3ef985314679996532cd0e96" id="r_ae097193b3ef985314679996532cd0e96"><td class="memItemLeft" align="right" valign="top"><a id="ae097193b3ef985314679996532cd0e96" name="ae097193b3ef985314679996532cd0e96"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, <a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>, <a class="el" href="#a5fd414376a45b3f53d3db9cf2c36077d">motor</a>, <a class="el" href="#a338c76b512bd8e82572f6cab69175f85">encoder</a>, encoderPosition, targetPosition, targetVelocity)</td></tr>
+<tr class="memitem:ae097193b3ef985314679996532cd0e96" id="r_ae097193b3ef985314679996532cd0e96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae097193b3ef985314679996532cd0e96">__init__</a> (self, <a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>, <a class="el" href="#a5fd414376a45b3f53d3db9cf2c36077d">motor</a>, <a class="el" href="#a338c76b512bd8e82572f6cab69175f85">encoder</a>, <a class="el" href="#ad4d1aca17e33ed006edfd3a9f97bae8d">encoderPosition</a>, <a class="el" href="#ac9021ac0afd66ad49c670aa868a24327">targetPosition</a>, <a class="el" href="#a227eeb49a0921ece8e09b0cb05731344">targetVelocity</a>)</td></tr>
 <tr class="separator:ae097193b3ef985314679996532cd0e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98e23583d5654e8c42e45e46bac33acc" id="r_a98e23583d5654e8c42e45e46bac33acc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98e23583d5654e8c42e45e46bac33acc">run</a> (self)</td></tr>
 <tr class="memdesc:a98e23583d5654e8c42e45e46bac33acc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#a98e23583d5654e8c42e45e46bac33acc" title="run() runs the next state of the state machine.">run()</a> runs the next state of the state machine.  <br /></td></tr>
@@ -128,93 +127,121 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a64452224eded23fdba9e085fbcb5bdc1" id="r_a64452224eded23fdba9e085fbcb5bdc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a> = chiralIndex</td></tr>
 <tr class="memdesc:a64452224eded23fdba9e085fbcb5bdc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index for differentiating between left and right.  <br /></td></tr>
 <tr class="separator:a64452224eded23fdba9e085fbcb5bdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fd414376a45b3f53d3db9cf2c36077d" id="r_a5fd414376a45b3f53d3db9cf2c36077d"><td class="memItemLeft" align="right" valign="top"><a id="a5fd414376a45b3f53d3db9cf2c36077d" name="a5fd414376a45b3f53d3db9cf2c36077d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>motor</b> = motor</td></tr>
-<tr class="memdesc:a5fd414376a45b3f53d3db9cf2c36077d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Motor object for setting motor parameters. <br /></td></tr>
+<tr class="memitem:a5fd414376a45b3f53d3db9cf2c36077d" id="r_a5fd414376a45b3f53d3db9cf2c36077d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fd414376a45b3f53d3db9cf2c36077d">motor</a> = motor</td></tr>
+<tr class="memdesc:a5fd414376a45b3f53d3db9cf2c36077d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_motor.html">Motor</a> object for setting motor parameters.  <br /></td></tr>
 <tr class="separator:a5fd414376a45b3f53d3db9cf2c36077d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338c76b512bd8e82572f6cab69175f85" id="r_a338c76b512bd8e82572f6cab69175f85"><td class="memItemLeft" align="right" valign="top"><a id="a338c76b512bd8e82572f6cab69175f85" name="a338c76b512bd8e82572f6cab69175f85"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>encoder</b> = encoder</td></tr>
-<tr class="memdesc:a338c76b512bd8e82572f6cab69175f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder object for reading encoder data. <br /></td></tr>
+<tr class="memitem:a338c76b512bd8e82572f6cab69175f85" id="r_a338c76b512bd8e82572f6cab69175f85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338c76b512bd8e82572f6cab69175f85">encoder</a> = encoder</td></tr>
+<tr class="memdesc:a338c76b512bd8e82572f6cab69175f85"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_encoder.html">Encoder</a> object for reading encoder data.  <br /></td></tr>
 <tr class="separator:a338c76b512bd8e82572f6cab69175f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4d1aca17e33ed006edfd3a9f97bae8d" id="r_ad4d1aca17e33ed006edfd3a9f97bae8d"><td class="memItemLeft" align="right" valign="top"><a id="ad4d1aca17e33ed006edfd3a9f97bae8d" name="ad4d1aca17e33ed006edfd3a9f97bae8d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>encoderPosition</b> = encoderPosition[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td></tr>
+<tr class="memitem:ad4d1aca17e33ed006edfd3a9f97bae8d" id="r_ad4d1aca17e33ed006edfd3a9f97bae8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4d1aca17e33ed006edfd3a9f97bae8d">encoderPosition</a> = encoderPosition[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td></tr>
 <tr class="separator:ad4d1aca17e33ed006edfd3a9f97bae8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9021ac0afd66ad49c670aa868a24327" id="r_ac9021ac0afd66ad49c670aa868a24327"><td class="memItemLeft" align="right" valign="top"><a id="ac9021ac0afd66ad49c670aa868a24327" name="ac9021ac0afd66ad49c670aa868a24327"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>targetPosition</b> = targetPosition[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td></tr>
+<tr class="memitem:ac9021ac0afd66ad49c670aa868a24327" id="r_ac9021ac0afd66ad49c670aa868a24327"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9021ac0afd66ad49c670aa868a24327">targetPosition</a> = targetPosition[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td></tr>
 <tr class="separator:ac9021ac0afd66ad49c670aa868a24327"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a227eeb49a0921ece8e09b0cb05731344" id="r_a227eeb49a0921ece8e09b0cb05731344"><td class="memItemLeft" align="right" valign="top"><a id="a227eeb49a0921ece8e09b0cb05731344" name="a227eeb49a0921ece8e09b0cb05731344"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>targetVelocity</b> = targetVelocity[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td></tr>
+<tr class="memitem:a227eeb49a0921ece8e09b0cb05731344" id="r_a227eeb49a0921ece8e09b0cb05731344"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a227eeb49a0921ece8e09b0cb05731344">targetVelocity</a> = targetVelocity[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td></tr>
 <tr class="separator:a227eeb49a0921ece8e09b0cb05731344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e90bc58a893b9b67d6ad5857b910c80" id="r_a6e90bc58a893b9b67d6ad5857b910c80"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e90bc58a893b9b67d6ad5857b910c80">state</a> = 0</td></tr>
 <tr class="memdesc:a6e90bc58a893b9b67d6ad5857b910c80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next state to be run by the state machine.  <br /></td></tr>
 <tr class="separator:a6e90bc58a893b9b67d6ad5857b910c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0e3114c26df1e43f3484ddcb85e3796" id="r_af0e3114c26df1e43f3484ddcb85e3796"><td class="memItemLeft" align="right" valign="top"><a id="af0e3114c26df1e43f3484ddcb85e3796" name="af0e3114c26df1e43f3484ddcb85e3796"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>prevPower</b> = 0</td></tr>
-<tr class="memdesc:af0e3114c26df1e43f3484ddcb85e3796"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last power assigned to the motor, to avoid assigning the same value again. <br /></td></tr>
+<tr class="memitem:af0e3114c26df1e43f3484ddcb85e3796" id="r_af0e3114c26df1e43f3484ddcb85e3796"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0e3114c26df1e43f3484ddcb85e3796">prevPower</a> = 0</td></tr>
+<tr class="memdesc:af0e3114c26df1e43f3484ddcb85e3796"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last power assigned to the motor, to avoid assigning the same value again.  <br /></td></tr>
 <tr class="separator:af0e3114c26df1e43f3484ddcb85e3796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a794112fd04c30936d76bf45b205780b2" id="r_a794112fd04c30936d76bf45b205780b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794112fd04c30936d76bf45b205780b2">controlIndex</a> = 0</td></tr>
 <tr class="memdesc:a794112fd04c30936d76bf45b205780b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag for differentiating between position and velocity control.  <br /></td></tr>
 <tr class="separator:a794112fd04c30936d76bf45b205780b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d87a40ec7a402b958c29e8baec9a89b" id="r_a9d87a40ec7a402b958c29e8baec9a89b"><td class="memItemLeft" align="right" valign="top"><a id="a9d87a40ec7a402b958c29e8baec9a89b" name="a9d87a40ec7a402b958c29e8baec9a89b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>prevPosition</b> = self.targetPosition.get()</td></tr>
-<tr class="memdesc:a9d87a40ec7a402b958c29e8baec9a89b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last target position, for detecting changes in the target. <br /></td></tr>
+<tr class="memitem:a9d87a40ec7a402b958c29e8baec9a89b" id="r_a9d87a40ec7a402b958c29e8baec9a89b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d87a40ec7a402b958c29e8baec9a89b">prevPosition</a> = self.targetPosition.get()</td></tr>
+<tr class="memdesc:a9d87a40ec7a402b958c29e8baec9a89b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last target position, for detecting changes in the target.  <br /></td></tr>
 <tr class="separator:a9d87a40ec7a402b958c29e8baec9a89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafc0df07c8b43aff1d972fc2edf5d25a" id="r_aafc0df07c8b43aff1d972fc2edf5d25a"><td class="memItemLeft" align="right" valign="top"><a id="aafc0df07c8b43aff1d972fc2edf5d25a" name="aafc0df07c8b43aff1d972fc2edf5d25a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>prevVelocity</b> = self.targetVelocity.get()</td></tr>
-<tr class="memdesc:aafc0df07c8b43aff1d972fc2edf5d25a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last target velocity, for detecting changes in the target. <br /></td></tr>
+<tr class="memitem:aafc0df07c8b43aff1d972fc2edf5d25a" id="r_aafc0df07c8b43aff1d972fc2edf5d25a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafc0df07c8b43aff1d972fc2edf5d25a">prevVelocity</a> = self.targetVelocity.get()</td></tr>
+<tr class="memdesc:aafc0df07c8b43aff1d972fc2edf5d25a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last target velocity, for detecting changes in the target.  <br /></td></tr>
 <tr class="separator:aafc0df07c8b43aff1d972fc2edf5d25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcb857ae9f08c6e3a1574d944a28d79e" id="r_abcb857ae9f08c6e3a1574d944a28d79e"><td class="memItemLeft" align="right" valign="top"><a id="abcb857ae9f08c6e3a1574d944a28d79e" name="abcb857ae9f08c6e3a1574d944a28d79e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>PID</b> = <a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a>(<a class="el" href="#af2fb754bca2deee281425876c4ce33be">Motor_Task.VEL_P</a>, <a class="el" href="#a2b679b1f472d1baabedfac0c311f9312">Motor_Task.VEL_I</a>, <a class="el" href="#a6287cd4834317a16cad3601e234d4792">Motor_Task.VEL_D</a>, 0, <a class="el" href="#aac03bb6334304c8807ba7f9bf51353f9">Motor_Task.DER_AVE</a>)</td></tr>
-<tr class="memdesc:abcb857ae9f08c6e3a1574d944a28d79e"><td class="mdescLeft">&#160;</td><td class="mdescRight">PID object for velocity control. <br /></td></tr>
+<tr class="memitem:abcb857ae9f08c6e3a1574d944a28d79e" id="r_abcb857ae9f08c6e3a1574d944a28d79e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcb857ae9f08c6e3a1574d944a28d79e">PID</a> = <a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a>(<a class="el" href="#af2fb754bca2deee281425876c4ce33be">Motor_Task.VEL_P</a>, <a class="el" href="#a2b679b1f472d1baabedfac0c311f9312">Motor_Task.VEL_I</a>, <a class="el" href="#a6287cd4834317a16cad3601e234d4792">Motor_Task.VEL_D</a>, 0, <a class="el" href="#aac03bb6334304c8807ba7f9bf51353f9">Motor_Task.DER_AVE</a>)</td></tr>
+<tr class="memdesc:abcb857ae9f08c6e3a1574d944a28d79e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_p_i_d.html">PID</a> object for velocity control.  <br /></td></tr>
 <tr class="separator:abcb857ae9f08c6e3a1574d944a28d79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a726bdbf39102392802b1ff2b68309d28" id="r_a726bdbf39102392802b1ff2b68309d28"><td class="memItemLeft" align="right" valign="top"><a id="a726bdbf39102392802b1ff2b68309d28" name="a726bdbf39102392802b1ff2b68309d28"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>logIndex</b> = 0</td></tr>
-<tr class="memdesc:a726bdbf39102392802b1ff2b68309d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index value for keeping track of logging data. <br /></td></tr>
+<tr class="memitem:a726bdbf39102392802b1ff2b68309d28" id="r_a726bdbf39102392802b1ff2b68309d28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a726bdbf39102392802b1ff2b68309d28">logIndex</a> = 0</td></tr>
+<tr class="memdesc:a726bdbf39102392802b1ff2b68309d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index value for keeping track of logging data.  <br /></td></tr>
 <tr class="separator:a726bdbf39102392802b1ff2b68309d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a35ba39abd8988f3a1275c12d9e69b735" id="r_a35ba39abd8988f3a1275c12d9e69b735"><td class="memItemLeft" align="right" valign="top"><a id="a35ba39abd8988f3a1275c12d9e69b735" name="a35ba39abd8988f3a1275c12d9e69b735"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_EFFORT</b> = 75</td></tr>
-<tr class="memdesc:a35ba39abd8988f3a1275c12d9e69b735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum effort that the PID loop will command to the motor. <br /></td></tr>
+<tr class="memitem:a35ba39abd8988f3a1275c12d9e69b735" id="r_a35ba39abd8988f3a1275c12d9e69b735"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ba39abd8988f3a1275c12d9e69b735">MAX_EFFORT</a> = 75</td></tr>
+<tr class="memdesc:a35ba39abd8988f3a1275c12d9e69b735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum effort that the <a class="el" href="namespace_p_i_d.html">PID</a> loop will command to the motor.  <br /></td></tr>
 <tr class="separator:a35ba39abd8988f3a1275c12d9e69b735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7337acb9712afca47e51aa4c6dbfa73" id="r_ac7337acb9712afca47e51aa4c6dbfa73"><td class="memItemLeft" align="right" valign="top"><a id="ac7337acb9712afca47e51aa4c6dbfa73" name="ac7337acb9712afca47e51aa4c6dbfa73"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>POS_P</b> = 1</td></tr>
-<tr class="memdesc:ac7337acb9712afca47e51aa4c6dbfa73"><td class="mdescLeft">&#160;</td><td class="mdescRight">K_P for position control. <br /></td></tr>
+<tr class="memitem:ac7337acb9712afca47e51aa4c6dbfa73" id="r_ac7337acb9712afca47e51aa4c6dbfa73"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7337acb9712afca47e51aa4c6dbfa73">POS_P</a> = 1</td></tr>
+<tr class="memdesc:ac7337acb9712afca47e51aa4c6dbfa73"><td class="mdescLeft">&#160;</td><td class="mdescRight">K_P for position control.  <br /></td></tr>
 <tr class="separator:ac7337acb9712afca47e51aa4c6dbfa73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0814d11a81f7a7fe632ea0fce1d4e647" id="r_a0814d11a81f7a7fe632ea0fce1d4e647"><td class="memItemLeft" align="right" valign="top"><a id="a0814d11a81f7a7fe632ea0fce1d4e647" name="a0814d11a81f7a7fe632ea0fce1d4e647"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>POS_DB</b> = 10</td></tr>
-<tr class="memdesc:a0814d11a81f7a7fe632ea0fce1d4e647"><td class="mdescLeft">&#160;</td><td class="mdescRight">dead band for position control <br /></td></tr>
+<tr class="memitem:a0814d11a81f7a7fe632ea0fce1d4e647" id="r_a0814d11a81f7a7fe632ea0fce1d4e647"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0814d11a81f7a7fe632ea0fce1d4e647">POS_DB</a> = 10</td></tr>
+<tr class="memdesc:a0814d11a81f7a7fe632ea0fce1d4e647"><td class="mdescLeft">&#160;</td><td class="mdescRight">dead band for position control  <br /></td></tr>
 <tr class="separator:a0814d11a81f7a7fe632ea0fce1d4e647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada0505e2883e1d575c934a9dbc2c32b7" id="r_ada0505e2883e1d575c934a9dbc2c32b7"><td class="memItemLeft" align="right" valign="top"><a id="ada0505e2883e1d575c934a9dbc2c32b7" name="ada0505e2883e1d575c934a9dbc2c32b7"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>POS_MAX</b> = 25</td></tr>
-<tr class="memdesc:ada0505e2883e1d575c934a9dbc2c32b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">max position control effort <br /></td></tr>
+<tr class="memitem:ada0505e2883e1d575c934a9dbc2c32b7" id="r_ada0505e2883e1d575c934a9dbc2c32b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada0505e2883e1d575c934a9dbc2c32b7">POS_MAX</a> = 25</td></tr>
+<tr class="memdesc:ada0505e2883e1d575c934a9dbc2c32b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">max position control effort  <br /></td></tr>
 <tr class="separator:ada0505e2883e1d575c934a9dbc2c32b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2fb754bca2deee281425876c4ce33be" id="r_af2fb754bca2deee281425876c4ce33be"><td class="memItemLeft" align="right" valign="top"><a id="af2fb754bca2deee281425876c4ce33be" name="af2fb754bca2deee281425876c4ce33be"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>VEL_P</b> = 0.1</td></tr>
-<tr class="memdesc:af2fb754bca2deee281425876c4ce33be"><td class="mdescLeft">&#160;</td><td class="mdescRight">K_P for velocity control. <br /></td></tr>
+<tr class="memitem:af2fb754bca2deee281425876c4ce33be" id="r_af2fb754bca2deee281425876c4ce33be"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2fb754bca2deee281425876c4ce33be">VEL_P</a> = 0.1</td></tr>
+<tr class="memdesc:af2fb754bca2deee281425876c4ce33be"><td class="mdescLeft">&#160;</td><td class="mdescRight">K_P for velocity control.  <br /></td></tr>
 <tr class="separator:af2fb754bca2deee281425876c4ce33be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b679b1f472d1baabedfac0c311f9312" id="r_a2b679b1f472d1baabedfac0c311f9312"><td class="memItemLeft" align="right" valign="top"><a id="a2b679b1f472d1baabedfac0c311f9312" name="a2b679b1f472d1baabedfac0c311f9312"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>VEL_I</b> = 0</td></tr>
-<tr class="memdesc:a2b679b1f472d1baabedfac0c311f9312"><td class="mdescLeft">&#160;</td><td class="mdescRight">K_I for velocity control. <br /></td></tr>
+<tr class="memitem:a2b679b1f472d1baabedfac0c311f9312" id="r_a2b679b1f472d1baabedfac0c311f9312"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b679b1f472d1baabedfac0c311f9312">VEL_I</a> = 0</td></tr>
+<tr class="memdesc:a2b679b1f472d1baabedfac0c311f9312"><td class="mdescLeft">&#160;</td><td class="mdescRight">K_I for velocity control.  <br /></td></tr>
 <tr class="separator:a2b679b1f472d1baabedfac0c311f9312"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6287cd4834317a16cad3601e234d4792" id="r_a6287cd4834317a16cad3601e234d4792"><td class="memItemLeft" align="right" valign="top"><a id="a6287cd4834317a16cad3601e234d4792" name="a6287cd4834317a16cad3601e234d4792"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>VEL_D</b> = 0</td></tr>
-<tr class="memdesc:a6287cd4834317a16cad3601e234d4792"><td class="mdescLeft">&#160;</td><td class="mdescRight">K_D for velocity control. <br /></td></tr>
+<tr class="memitem:a6287cd4834317a16cad3601e234d4792" id="r_a6287cd4834317a16cad3601e234d4792"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6287cd4834317a16cad3601e234d4792">VEL_D</a> = 0</td></tr>
+<tr class="memdesc:a6287cd4834317a16cad3601e234d4792"><td class="mdescLeft">&#160;</td><td class="mdescRight">K_D for velocity control.  <br /></td></tr>
 <tr class="separator:a6287cd4834317a16cad3601e234d4792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac03bb6334304c8807ba7f9bf51353f9" id="r_aac03bb6334304c8807ba7f9bf51353f9"><td class="memItemLeft" align="right" valign="top"><a id="aac03bb6334304c8807ba7f9bf51353f9" name="aac03bb6334304c8807ba7f9bf51353f9"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>DER_AVE</b> = 10</td></tr>
-<tr class="memdesc:aac03bb6334304c8807ba7f9bf51353f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of derivative values to average. <br /></td></tr>
+<tr class="memitem:aac03bb6334304c8807ba7f9bf51353f9" id="r_aac03bb6334304c8807ba7f9bf51353f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac03bb6334304c8807ba7f9bf51353f9">DER_AVE</a> = 10</td></tr>
+<tr class="memdesc:aac03bb6334304c8807ba7f9bf51353f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of derivative values to average.  <br /></td></tr>
 <tr class="separator:aac03bb6334304c8807ba7f9bf51353f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a697e06fbce876e26a7bca2b8ff281a7f" id="r_a697e06fbce876e26a7bca2b8ff281a7f"><td class="memItemLeft" align="right" valign="top"><a id="a697e06fbce876e26a7bca2b8ff281a7f" name="a697e06fbce876e26a7bca2b8ff281a7f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>VEL_FF</b> = 0.02</td></tr>
-<tr class="memdesc:a697e06fbce876e26a7bca2b8ff281a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">feed forward gain, in percent effort / tick/s <br /></td></tr>
+<tr class="memitem:a697e06fbce876e26a7bca2b8ff281a7f" id="r_a697e06fbce876e26a7bca2b8ff281a7f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a697e06fbce876e26a7bca2b8ff281a7f">VEL_FF</a> = 0.02</td></tr>
+<tr class="memdesc:a697e06fbce876e26a7bca2b8ff281a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">feed forward gain, in percent effort / tick/s  <br /></td></tr>
 <tr class="separator:a697e06fbce876e26a7bca2b8ff281a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_motor___task_1_1_motor___task.html" title="Motor_Task defines a state machine for position and velocity control of the motor.">Motor_Task</a> defines a state machine for position and velocity control of the motor. </p>
 <p>There is one <a class="el" href="class_motor___task_1_1_motor___task.html" title="Motor_Task defines a state machine for position and velocity control of the motor.">Motor_Task</a> for each motor encoder pair. <a class="el" href="class_motor___task_1_1_motor___task.html" title="Motor_Task defines a state machine for position and velocity control of the motor.">Motor_Task</a> will automatically switch to position or velocity control every time the position or velocity targets are updated, respectively </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae097193b3ef985314679996532cd0e96" name="ae097193b3ef985314679996532cd0e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae097193b3ef985314679996532cd0e96">&#9670;&#160;</a></span>__init__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>chiralIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>motor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>encoder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>encoderPosition</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>targetPosition</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>targetVelocity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a98e23583d5654e8c42e45e46bac33acc" name="a98e23583d5654e8c42e45e46bac33acc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98e23583d5654e8c42e45e46bac33acc">&#9670;&#160;</a></span>run()</h2>
 
@@ -270,6 +297,252 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>VEL_FF</b> = 0.02</t
 
 </div>
 </div>
+<a id="aac03bb6334304c8807ba7f9bf51353f9" name="aac03bb6334304c8807ba7f9bf51353f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac03bb6334304c8807ba7f9bf51353f9">&#9670;&#160;</a></span>DER_AVE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.DER_AVE = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of derivative values to average. </p>
+
+</div>
+</div>
+<a id="a338c76b512bd8e82572f6cab69175f85" name="a338c76b512bd8e82572f6cab69175f85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a338c76b512bd8e82572f6cab69175f85">&#9670;&#160;</a></span>encoder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.encoder = encoder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespace_encoder.html">Encoder</a> object for reading encoder data. </p>
+
+</div>
+</div>
+<a id="ad4d1aca17e33ed006edfd3a9f97bae8d" name="ad4d1aca17e33ed006edfd3a9f97bae8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4d1aca17e33ed006edfd3a9f97bae8d">&#9670;&#160;</a></span>encoderPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.encoderPosition = encoderPosition[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a726bdbf39102392802b1ff2b68309d28" name="a726bdbf39102392802b1ff2b68309d28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a726bdbf39102392802b1ff2b68309d28">&#9670;&#160;</a></span>logIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.logIndex = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Index value for keeping track of logging data. </p>
+
+</div>
+</div>
+<a id="a35ba39abd8988f3a1275c12d9e69b735" name="a35ba39abd8988f3a1275c12d9e69b735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ba39abd8988f3a1275c12d9e69b735">&#9670;&#160;</a></span>MAX_EFFORT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.MAX_EFFORT = 75</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum effort that the <a class="el" href="namespace_p_i_d.html">PID</a> loop will command to the motor. </p>
+
+</div>
+</div>
+<a id="a5fd414376a45b3f53d3db9cf2c36077d" name="a5fd414376a45b3f53d3db9cf2c36077d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd414376a45b3f53d3db9cf2c36077d">&#9670;&#160;</a></span>motor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.motor = motor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespace_motor.html">Motor</a> object for setting motor parameters. </p>
+
+</div>
+</div>
+<a id="abcb857ae9f08c6e3a1574d944a28d79e" name="abcb857ae9f08c6e3a1574d944a28d79e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcb857ae9f08c6e3a1574d944a28d79e">&#9670;&#160;</a></span>PID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.PID = <a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a>(<a class="el" href="#af2fb754bca2deee281425876c4ce33be">Motor_Task.VEL_P</a>, <a class="el" href="#a2b679b1f472d1baabedfac0c311f9312">Motor_Task.VEL_I</a>, <a class="el" href="#a6287cd4834317a16cad3601e234d4792">Motor_Task.VEL_D</a>, 0, <a class="el" href="#aac03bb6334304c8807ba7f9bf51353f9">Motor_Task.DER_AVE</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespace_p_i_d.html">PID</a> object for velocity control. </p>
+
+</div>
+</div>
+<a id="a0814d11a81f7a7fe632ea0fce1d4e647" name="a0814d11a81f7a7fe632ea0fce1d4e647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0814d11a81f7a7fe632ea0fce1d4e647">&#9670;&#160;</a></span>POS_DB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.POS_DB = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>dead band for position control </p>
+
+</div>
+</div>
+<a id="ada0505e2883e1d575c934a9dbc2c32b7" name="ada0505e2883e1d575c934a9dbc2c32b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada0505e2883e1d575c934a9dbc2c32b7">&#9670;&#160;</a></span>POS_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.POS_MAX = 25</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>max position control effort </p>
+
+</div>
+</div>
+<a id="ac7337acb9712afca47e51aa4c6dbfa73" name="ac7337acb9712afca47e51aa4c6dbfa73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7337acb9712afca47e51aa4c6dbfa73">&#9670;&#160;</a></span>POS_P</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.POS_P = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>K_P for position control. </p>
+
+</div>
+</div>
+<a id="a9d87a40ec7a402b958c29e8baec9a89b" name="a9d87a40ec7a402b958c29e8baec9a89b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d87a40ec7a402b958c29e8baec9a89b">&#9670;&#160;</a></span>prevPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.prevPosition = self.targetPosition.get()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Last target position, for detecting changes in the target. </p>
+
+</div>
+</div>
+<a id="af0e3114c26df1e43f3484ddcb85e3796" name="af0e3114c26df1e43f3484ddcb85e3796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0e3114c26df1e43f3484ddcb85e3796">&#9670;&#160;</a></span>prevPower</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.prevPower = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The last power assigned to the motor, to avoid assigning the same value again. </p>
+
+</div>
+</div>
+<a id="aafc0df07c8b43aff1d972fc2edf5d25a" name="aafc0df07c8b43aff1d972fc2edf5d25a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafc0df07c8b43aff1d972fc2edf5d25a">&#9670;&#160;</a></span>prevVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.prevVelocity = self.targetVelocity.get()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Last target velocity, for detecting changes in the target. </p>
+
+</div>
+</div>
 <a id="a6e90bc58a893b9b67d6ad5857b910c80" name="a6e90bc58a893b9b67d6ad5857b910c80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e90bc58a893b9b67d6ad5857b910c80">&#9670;&#160;</a></span>state</h2>
 
@@ -287,15 +560,139 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>VEL_FF</b> = 0.02</t
 
 </div>
 </div>
+<a id="ac9021ac0afd66ad49c670aa868a24327" name="ac9021ac0afd66ad49c670aa868a24327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9021ac0afd66ad49c670aa868a24327">&#9670;&#160;</a></span>targetPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.targetPosition = targetPosition[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a227eeb49a0921ece8e09b0cb05731344" name="a227eeb49a0921ece8e09b0cb05731344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a227eeb49a0921ece8e09b0cb05731344">&#9670;&#160;</a></span>targetVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Motor_Task.Motor_Task.targetVelocity = targetVelocity[<a class="el" href="#a64452224eded23fdba9e085fbcb5bdc1">chiralIndex</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6287cd4834317a16cad3601e234d4792" name="a6287cd4834317a16cad3601e234d4792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6287cd4834317a16cad3601e234d4792">&#9670;&#160;</a></span>VEL_D</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.VEL_D = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>K_D for velocity control. </p>
+
+</div>
+</div>
+<a id="a697e06fbce876e26a7bca2b8ff281a7f" name="a697e06fbce876e26a7bca2b8ff281a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a697e06fbce876e26a7bca2b8ff281a7f">&#9670;&#160;</a></span>VEL_FF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Motor_Task.Motor_Task.VEL_FF = 0.02</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>feed forward gain, in percent effort / tick/s </p>
+
+</div>
+</div>
+<a id="a2b679b1f472d1baabedfac0c311f9312" name="a2b679b1f472d1baabedfac0c311f9312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b679b1f472d1baabedfac0c311f9312">&#9670;&#160;</a></span>VEL_I</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Motor_Task.Motor_Task.VEL_I = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>K_I for velocity control. </p>
+
+</div>
+</div>
+<a id="af2fb754bca2deee281425876c4ce33be" name="af2fb754bca2deee281425876c4ce33be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2fb754bca2deee281425876c4ce33be">&#9670;&#160;</a></span>VEL_P</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Motor_Task.Motor_Task.VEL_P = 0.1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>K_P for velocity control. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><b>Motor_Task.py</b></li>
+<li><a class="el" href="_motor___task_8py.html">Motor_Task.py</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>Motor_Task</b></li><li class="navelem"><a class="el" href="class_motor___task_1_1_motor___task.html">Motor_Task</a></li>
+    <li class="navelem"><a class="el" href="namespace_motor___task.html">Motor_Task</a></li><li class="navelem"><a class="el" href="class_motor___task_1_1_motor___task.html">Motor_Task</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

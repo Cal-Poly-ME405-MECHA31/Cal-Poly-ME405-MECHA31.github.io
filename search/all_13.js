@@ -1,17 +1,18 @@
 var searchData=
 [
-  ['targetposition_0',['targetPosition',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a442af6a330179f3e3691742a2e8a0c4f',1,'ME405 Term Project v5::Main']]],
-  ['targetvelocity_1',['targetVelocity',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a164ede44e70ecd8138219d44652dd4ad',1,'ME405 Term Project v5::Main']]],
-  ['task_20diagram_3a_2',['Overall Task Diagram:',['../index.html#autotoc_md4',1,'']]],
-  ['term_20project_3',['ME405 MECHA31 TERM PROJECT',['../index.html',1,'']]],
-  ['term_20project_20created_20by_20evan_20long_20and_20sydney_20alexander_4',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]],
-  ['timestamp_5',['timeStamp',['../class_controller_1_1_controller.html#a7b42dbf192fe00cebefb33c6493072ea',1,'Controller.Controller.timeStamp'],['../class_p_i_d_1_1_p_i_d.html#ab7265d590e21be8b5ea58fbb9dc18ddb',1,'PID.PID.timeStamp'],['../class_x_y___tracking_1_1_x_y___tracking.html#a662065cc940cd6a912da9ab634f4c6a9',1,'XY_Tracking.XY_Tracking.timeStamp']]],
-  ['to_20each_2011_20classes_3a_6',['Links to Each 11 Classes:',['../index.html#autotoc_md1',1,'']]],
-  ['to_20our_20mechatronics_20term_20project_20created_20by_20evan_20long_20and_20sydney_20alexander_7',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]],
-  ['toggle_5fperiod_8',['TOGGLE_PERIOD',['../class_com___task_1_1_com___task.html#a27d08d03d194656bba1672b501fa3e42',1,'Com_Task::Com_Task']]],
-  ['togglets_9',['toggleTS',['../class_com___task_1_1_com___task.html#aa50b870824e1c4b0d0460ce87e9646ca',1,'Com_Task::Com_Task']]],
-  ['top_20level_20control_3a_10',['Top Level Control:',['../index.html#autotoc_md6',1,'']]],
-  ['trignums_11',['trigNums',['../class_ultra___sense___task_1_1_ultra___sense___task.html#a565af08a802e4b66afd4cd0c67a16f80',1,'Ultra_Sense_Task::Ultra_Sense_Task']]],
-  ['trigpins_12',['trigPins',['../class_ultra___sense___task_1_1_ultra___sense___task.html#a11406e98c2cc24568e0f2931ab41e604',1,'Ultra_Sense_Task::Ultra_Sense_Task']]],
-  ['turn_5finc_13',['TURN_INC',['../class_com___task_1_1_com___task.html#ac5dd7e2f9a677e9211d6e72de9a781ff',1,'Com_Task::Com_Task']]]
+  ['sensor_20driver_20abstract_20_3a_0',['Sensor Driver (Abstract):',['../index.html#autotoc_md8',1,'']]],
+  ['sensor_5fcount_1',['SENSOR_COUNT',['../class_ultra___sense___task_1_1_ultra___sense___task.html#a300050db3b318384c331896b985cba51',1,'Ultra_Sense_Task::Ultra_Sense_Task']]],
+  ['serial_2',['serial',['../class_com___task_1_1_com___task.html#a7eade7f363d9a557792e54f5a9da191e',1,'Com_Task::Com_Task']]],
+  ['set_5feffort_3',['set_effort',['../class_motor_1_1_motor.html#a30870f27a3d39a2a0c544292445f9d46',1,'Motor::Motor']]],
+  ['setpid_4',['setPID',['../class_p_i_d_1_1_p_i_d.html#a7403588ee7e6c112a8fb84aa6e84f013',1,'PID::PID']]],
+  ['settimestamp_5',['setTimeStamp',['../class_p_i_d_1_1_p_i_d.html#a3c0e37131a58727b04230e2c59f7af4b',1,'PID::PID']]],
+  ['startheading_6',['startHeading',['../class_controller_1_1_controller.html#a79383621556e83f09e545934f5c887a1',1,'Controller.Controller.startHeading'],['../class_x_y___tracking_1_1_x_y___tracking.html#ad2a77023724f074c61a722471d7c8818',1,'XY_Tracking.XY_Tracking.startHeading']]],
+  ['startposition_7',['startPosition',['../class_controller_1_1_controller.html#a3a11d432d6fcbdec47f90b6997c2ef70',1,'Controller::Controller']]],
+  ['state_8',['state',['../class_com___task_1_1_com___task.html#ab052e931201318dc2ac09e55cfbad0c6',1,'Com_Task.Com_Task.state'],['../class_controller_1_1_controller.html#a024dce78fb3e60f5cfbd2ab60f14dbd3',1,'Controller.Controller.state'],['../class_i_m_u___tracker_1_1_i_m_u___tracker.html#a1699c7a88ae1df502b626ed7b865a156',1,'IMU_Tracker.IMU_Tracker.state'],['../class_i_r___sense___task_1_1_i_r___sense___task.html#afcae39b97480a07c2793ffd7c990c41a',1,'IR_Sense_Task.IR_Sense_Task.state'],['../class_motor___task_1_1_motor___task.html#a6e90bc58a893b9b67d6ad5857b910c80',1,'Motor_Task.Motor_Task.state'],['../class_ultra___sense___task_1_1_ultra___sense___task.html#a86550b06ab27ccce630acb6519a40bb4',1,'Ultra_Sense_Task.Ultra_Sense_Task.state'],['../class_x_y___tracking_1_1_x_y___tracking.html#a394bbc7c2424301150e9ad0c3b773586',1,'XY_Tracking.XY_Tracking.state']]],
+  ['state_20machine_20diagrams_3a_9',['State Machine Diagrams:',['../index.html#autotoc_md5',1,'']]],
+  ['strength_10',['strength',['../class_controller_1_1_controller.html#a4d2787c3a411bf4127d44d8583c43510',1,'Controller.Controller.strength'],['../class_i_r___sense___task_1_1_i_r___sense___task.html#a11e8ef4b3cb50f21a1fecd8d4732cccf',1,'IR_Sense_Task.IR_Sense_Task.strength'],['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a7b6c0e1bcc722f49ce77a44f533f6538',1,'ME405 Term Project v5.Main.strength']]],
+  ['strength_5fave_11',['STRENGTH_AVE',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a1e572b13480ad1ed0ed4f0ccd6559b71',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['strength_5findex_12',['strength_index',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a98d3a54781dcebe05c1cc1739143bdaa',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['strength_5flist_13',['strength_list',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a5861b77d763bf0851c6c50af149c73c8',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['sydney_20alexander_14',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]]
 ];

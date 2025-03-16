@@ -1,12 +1,29 @@
 var class_controller_1_1_controller =
 [
+    [ "__init__", "class_controller_1_1_controller.html#a15e10159fbea9d0ed0381263d500309d", null ],
+    [ "log", "class_controller_1_1_controller.html#af923a655defdfb0fa84600c2d01b165d", null ],
     [ "run", "class_controller_1_1_controller.html#a774cd37a82e6cddf1a0cef2616629f95", null ],
+    [ "calibrated", "class_controller_1_1_controller.html#a4f08f73eb16810a6f10b91dd01cf905d", null ],
+    [ "ctrlState", "class_controller_1_1_controller.html#ab65a6c0cd43756cc83ca026c7645d415", null ],
+    [ "dataQueue", "class_controller_1_1_controller.html#a1a8b99bc77e67205ed5197ff42d3c7fe", null ],
+    [ "distance", "class_controller_1_1_controller.html#a5442e966bd26619ebf4037c211beb98a", null ],
+    [ "encoderPosition", "class_controller_1_1_controller.html#ab469230387b02e0f171a70556cedcc85", null ],
     [ "endPosition", "class_controller_1_1_controller.html#aca51f577643fdbe8f987cfd81a543d46", null ],
+    [ "heading", "class_controller_1_1_controller.html#ac71d84ef8e05ed9f8ad9eb81b23c4898", null ],
     [ "headingPID", "class_controller_1_1_controller.html#a0752a71bf10da9ae9300de9ea4e96fd5", null ],
+    [ "kDShare", "class_controller_1_1_controller.html#ae3215d3f6d662dacfcf68fca1fd6d125", null ],
+    [ "kIShare", "class_controller_1_1_controller.html#a156771d90f9619fbe4d05f5071f2d4f3", null ],
+    [ "kPShare", "class_controller_1_1_controller.html#a249e9c7b2a7a8e58c4cc66b23f376719", null ],
     [ "linePID", "class_controller_1_1_controller.html#a65e55fd2c9466a6e86bd0871534b2b0f", null ],
+    [ "lineSpeed", "class_controller_1_1_controller.html#a472a4c2862c3ff0623dbfd162eacb30d", null ],
+    [ "offset", "class_controller_1_1_controller.html#a0c4add2aff39a2d122e9d83eb59e321e", null ],
     [ "returnState", "class_controller_1_1_controller.html#a4299e3263502a963d8286a483fa282b9", null ],
     [ "startHeading", "class_controller_1_1_controller.html#a79383621556e83f09e545934f5c887a1", null ],
     [ "startPosition", "class_controller_1_1_controller.html#a3a11d432d6fcbdec47f90b6997c2ef70", null ],
     [ "state", "class_controller_1_1_controller.html#a024dce78fb3e60f5cfbd2ab60f14dbd3", null ],
-    [ "timeStamp", "class_controller_1_1_controller.html#a7b42dbf192fe00cebefb33c6493072ea", null ]
+    [ "strength", "class_controller_1_1_controller.html#a4d2787c3a411bf4127d44d8583c43510", null ],
+    [ "targetVelocity", "class_controller_1_1_controller.html#a8f68759434641fe876c294869d7a6978", null ],
+    [ "timeStamp", "class_controller_1_1_controller.html#a7b42dbf192fe00cebefb33c6493072ea", null ],
+    [ "xPosition", "class_controller_1_1_controller.html#ab6a42dfb65d082aecdce2e8f9307affa", null ],
+    [ "yPosition", "class_controller_1_1_controller.html#adeaa0018316475177771ab7799b94bdc", null ]
 ];
