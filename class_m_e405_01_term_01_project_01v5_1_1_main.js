@@ -1,6 +1,5 @@
 var class_m_e405_01_term_01_project_01v5_1_1_main =
 [
-    [ "__init__", "class_m_e405_01_term_01_project_01v5_1_1_main.html#a71cecc61bdaa33237e82b8a21ce7ec7a", null ],
     [ "main", "class_m_e405_01_term_01_project_01v5_1_1_main.html#a22e913e2e002fd9143e94c8edc7c532b", null ],
     [ "calibrated", "class_m_e405_01_term_01_project_01v5_1_1_main.html#a8b0c07e1d2a57d0f0d45405a75c3a0c5", null ],
     [ "ctrlState", "class_m_e405_01_term_01_project_01v5_1_1_main.html#a792bb45c9c6f6e642bac59cb860d6037", null ],

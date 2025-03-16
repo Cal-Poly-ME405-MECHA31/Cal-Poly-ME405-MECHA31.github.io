@@ -119,11 +119,11 @@ Links to Each 11 Classes:</h2>
 <ol type="1">
 <li>Main.py: <a href="https://cal-poly-me405-mecha31.github.io/class_m_e405_01_term_01_project_01v5_1_1_main.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/m_e405_01_term_01_project_01v5_8py_source.html">source</a></li>
 <li>Com Task: <a href="https://cal-poly-me405-mecha31.github.io/class_com___task_1_1_com___task.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/com___task_8py_source.html">source</a></li>
-<li><a class="el" href="namespace_controller.html">Controller</a>: <a href="https://cal-poly-me405-mecha31.github.io/class_controller_1_1_controller.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/controller_8py_source.html">source</a></li>
-<li><a class="el" href="namespace_p_i_d.html">PID</a>: <a href="https://cal-poly-me405-mecha31.github.io/class_p_i_d_1_1_p_i_d.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/p_i_d_8py_source.html">source</a></li>
-<li><a class="el" href="namespace_motor.html">Motor</a>: <a href="https://cal-poly-me405-mecha31.github.io/class_motor_1_1_motor.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/motor_8py_source.html">source</a></li>
-<li><a class="el" href="namespace_encoder.html">Encoder</a>: <a href="https://cal-poly-me405-mecha31.github.io/class_encoder_1_1_encoder.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/encoder_8py_source.html">source</a></li>
-<li><a class="el" href="namespace_motor.html">Motor</a> <a class="el" href="namespace_controller.html">Controller</a>: <a href="https://cal-poly-me405-mecha31.github.io/class_motor___task_1_1_motor___task.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/motor___task_8py_source.html">source</a></li>
+<li>Controller: <a href="https://cal-poly-me405-mecha31.github.io/class_controller_1_1_controller.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/controller_8py_source.html">source</a></li>
+<li>PID: <a href="https://cal-poly-me405-mecha31.github.io/class_p_i_d_1_1_p_i_d.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/p_i_d_8py_source.html">source</a></li>
+<li>Motor: <a href="https://cal-poly-me405-mecha31.github.io/class_motor_1_1_motor.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/motor_8py_source.html">source</a></li>
+<li>Encoder: <a href="https://cal-poly-me405-mecha31.github.io/class_encoder_1_1_encoder.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/encoder_8py_source.html">source</a></li>
+<li>Motor Controller: <a href="https://cal-poly-me405-mecha31.github.io/class_motor___task_1_1_motor___task.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/motor___task_8py_source.html">source</a></li>
 <li>IR Driver: <a href="https://cal-poly-me405-mecha31.github.io/class_i_r___sense___task_1_1_i_r___sense___task.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/i_r___sense___task_8py_source.html">source</a></li>
 <li>IMU Driver: <a href="https://cal-poly-me405-mecha31.github.io/class_i_m_u___tracker_1_1_i_m_u___tracker.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/i_m_u___tracker_8py_source.html">source</a></li>
 <li>Ultrasonic Driver: <a href="https://cal-poly-me405-mecha31.github.io/class_ultra___sense___task_1_1_ultra___sense___task.html">class</a> | <a href="https://cal-poly-me405-mecha31.github.io/ultra___sense___task_8py_source.html">source</a></li>
@@ -134,11 +134,11 @@ Class Descriptions for Context:</h2>
 <ol type="1">
 <li>main.py - Our main file has three goals. 1: Create instances of all share/queue objects. 2. Create instances of all task objects. 3. Create and run the scheduler</li>
 <li>Com Task - Handles the interaction between the bluetooth module and the other classes. Com Task handles both incoming commands as well as outgoing data transfers</li>
-<li><a class="el" href="namespace_controller.html">Controller</a> - Defines the main state space for navigating the course. The controller class defines the logic of how Romi will respond to sensor inputs from the course. <a class="el" href="namespace_controller.html">Controller</a> class also handles navigation error processing</li>
-<li><a class="el" href="namespace_p_i_d.html">PID</a> - A generic, abstracted <a class="el" href="namespace_p_i_d.html">PID</a> class that is used in various places across the project. Some key features include integral saturation and derivative averaging</li>
-<li><a class="el" href="namespace_motor.html">Motor</a> - A driver for Romi's DC motors. This class simply provides wrappers around the GPIO interface, but does not define any controller behavior of the motor</li>
-<li><a class="el" href="namespace_encoder.html">Encoder</a> - A driver for Romi's encoders. This class does not define the timing of the encoder updates, but rather provides a simple interface to update the encoder</li>
-<li><a class="el" href="namespace_motor.html">Motor</a> <a class="el" href="namespace_controller.html">Controller</a> - In the motor controller task, we define a position and velocity <a class="el" href="namespace_p_i_d.html">PID</a> controller for Romi's motors, using encoder feedback</li>
+<li>Controller - Defines the main state space for navigating the course. The controller class defines the logic of how Romi will respond to sensor inputs from the course. Controller class also handles navigation error processing</li>
+<li>PID - A generic, abstracted PID class that is used in various places across the project. Some key features include integral saturation and derivative averaging</li>
+<li>Motor - A driver for Romi's DC motors. This class simply provides wrappers around the GPIO interface, but does not define any controller behavior of the motor</li>
+<li>Encoder - A driver for Romi's encoders. This class does not define the timing of the encoder updates, but rather provides a simple interface to update the encoder</li>
+<li>Motor Controller - In the motor controller task, we define a position and velocity PID controller for Romi's motors, using encoder feedback</li>
 <li>IR Driver - A driver for the IR sensor installed on Romi. The IR sensors are the RC models, so our IR driver defines a list of callbacks for the event when the IR sensor is triggered. The main outputs are the centroid of the line and the strength of the reflectance.</li>
 <li>IMU Driver - A driver for the IMU installed on Romi. The IMU automatically defines Romi's Euler angles, so the driver simply waits for calibration success, then reads the heading.</li>
 <li>Ultrasonic Diver - A driver for the ultrasonic sensors installed on Romi. The ultrasonic sensors are the HC-SR04 model, which means they behave in a very similar way to the IR sensors.</li>
@@ -180,7 +180,7 @@ Control Diagrams:</h2>
 <h3><a class="anchor" id="autotoc_md10"></a>
 Line Follow Controller:</h3>
 <p><img src="https://cal-poly-me405-mecha31.github.io/Line%20Controller.PNG" alt="" style="width: 50%; height: 50%" class="inline"/></p>
-<p>Figure 6. Control block diagram for the entire system when the code is in a line following state. The cascaded <a class="el" href="namespace_p_i_d.html">PID</a> loops were based on the model presented in lecture. Note that the dynamics have been simplified greatly for brevity: the dynamics are more complex than a SISO function. The constants shown here are pulled from the line following state for the first line of the course. We chose to avoid integral gains on our line following controller to reduce the complicated effects of integral windup and increase reliability.</p>
+<p>Figure 6. Control block diagram for the entire system when the code is in a line following state. The cascaded PID loops were based on the model presented in lecture. Note that the dynamics have been simplified greatly for brevity: the dynamics are more complex than a SISO function. The constants shown here are pulled from the line following state for the first line of the course. We chose to avoid integral gains on our line following controller to reduce the complicated effects of integral windup and increase reliability.</p>
 <h3><a class="anchor" id="autotoc_md11"></a>
 Heading Controller:</h3>
 <p><img src="https://cal-poly-me405-mecha31.github.io/Heading%20Controller.PNG" alt="" style="width: 50%; height: 50%" class="inline"/></p>

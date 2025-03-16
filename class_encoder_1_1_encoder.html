@@ -166,6 +166,8 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="class_encoder_1_1_encoder.html" title="The Encoder class defines a simple Encoder driver by providing access to encoder position and velocit...">Encoder</a> class defines a simple <a class="el" href="class_encoder_1_1_encoder.html" title="The Encoder class defines a simple Encoder driver by providing access to encoder position and velocit...">Encoder</a> driver by providing access to encoder position and velocity. </p>
 <p>Note: the <a class="el" href="class_encoder_1_1_encoder.html" title="The Encoder class defines a simple Encoder driver by providing access to encoder position and velocit...">Encoder</a> class is a wrapper not a task: to function properly, regular calls to the <a class="el" href="#a3edf3fe66f8af2e5667a0903452fa49d" title="update() is the function that must be called regularly for encoder values to update.">update()</a> function must be included in logic elsewhere </p>
+
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00012">12</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a12c2a6a5e18733704ccb3d13245d7e55" name="a12c2a6a5e18733704ccb3d13245d7e55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12c2a6a5e18733704ccb3d13245d7e55">&#9670;&#160;</a></span>__init__()</h2>
@@ -196,6 +198,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00017">17</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -213,6 +217,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00057">57</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
 
 </div>
 </div>
@@ -232,6 +238,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get_velocity averages the last VEL_AVG data points </p>
+
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00061">61</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
 
 </div>
 </div>
@@ -253,6 +261,8 @@ Static Public Attributes</h2></td></tr>
 <p><a class="el" href="#a3edf3fe66f8af2e5667a0903452fa49d" title="update() is the function that must be called regularly for encoder values to update.">update()</a> is the function that must be called regularly for encoder values to update. </p>
 <p>Recommended period is 5ms </p>
 
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00032">32</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -270,6 +280,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Raw count read directly from Timer object (not corrected for overflow/underflow) </p>
 
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00019">19</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
+
 </div>
 </div>
 <a id="a2308e3a2ab31eae5118dadfe5a955bf2" name="a2308e3a2ab31eae5118dadfe5a955bf2"></a>
@@ -286,6 +298,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>The change in position/count from last update to current update. </p>
 
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00021">21</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
+
 </div>
 </div>
 <a id="a2129f30fc7236307fbe00c698e549bff" name="a2129f30fc7236307fbe00c698e549bff"></a>
@@ -301,6 +315,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The change in time from last update to current update. </p>
+
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00022">22</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
 
 </div>
 </div>
@@ -319,6 +335,8 @@ Static Public Attributes</h2></td></tr>
 <p>Timer object associated with each encoder. </p>
 <p>The Timer object automatically updates the count </p>
 
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00027">27</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
+
 </div>
 </div>
 <a id="a18103cf6c8f6f113a63c755cd93dbec4" name="a18103cf6c8f6f113a63c755cd93dbec4"></a>
@@ -334,6 +352,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Timestap of the last call to update. </p>
+
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00023">23</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
 
 </div>
 </div>
@@ -351,6 +371,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Current encoder position, corrected for overflow and underflow. </p>
 
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00018">18</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
+
 </div>
 </div>
 <a id="a4833ccfbac5153c4f3262b035729e974" name="a4833ccfbac5153c4f3262b035729e974"></a>
@@ -366,6 +388,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Raw count read from the last call to update. </p>
+
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00020">20</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
 
 </div>
 </div>
@@ -391,6 +415,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>The number of past velocity terms to average out when current velocity is requested. </p>
 
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00015">15</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
+
 </div>
 </div>
 <a id="a2a0d04d402e6399e538eeaef0da86511" name="a2a0d04d402e6399e538eeaef0da86511"></a>
@@ -406,6 +432,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Current index associated with the vel_list object. </p>
+
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00025">25</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
 
 </div>
 </div>
@@ -423,17 +451,19 @@ Static Public Attributes</h2></td></tr>
 
 <p>List containing the velocity at the last several calls to update for averaging. </p>
 
+<p class="definition">Definition at line <a class="el" href="_encoder_8py_source.html#l00024">24</a> of file <a class="el" href="_encoder_8py_source.html">Encoder.py</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_encoder_8py.html">Encoder.py</a></li>
+<li><a class="el" href="_encoder_8py_source.html">Encoder.py</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespace_encoder.html">Encoder</a></li><li class="navelem"><a class="el" href="class_encoder_1_1_encoder.html">Encoder</a></li>
+    <li class="navelem"><b>Encoder</b></li><li class="navelem"><a class="el" href="class_encoder_1_1_encoder.html">Encoder</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -1,23 +1,10 @@
 var searchData=
 [
-  ['past_5fwall_0',['PAST_WALL',['../class_controller_1_1_controller.html#ada544a7c72f5cc655d4ddeba3ada15d1',1,'Controller::Controller']]],
-  ['past_5fwall_5f2_1',['PAST_WALL_2',['../class_controller_1_1_controller.html#a49ca1c76765bac2a7f2fc1772fb03ee6',1,'Controller::Controller']]],
-  ['pid_2',['PID',['../class_p_i_d_1_1_p_i_d.html',1,'PID.PID'],['../namespace_p_i_d.html',1,'PID'],['../class_i_m_u___tracker_1_1_i_m_u___tracker.html#a65528eab16264ababc53445585ea0518',1,'IMU_Tracker.IMU_Tracker.PID'],['../class_motor___task_1_1_motor___task.html#abcb857ae9f08c6e3a1574d944a28d79e',1,'Motor_Task.Motor_Task.PID']]],
-  ['pid_2epy_3',['PID.py',['../_p_i_d_8py.html',1,'']]],
-  ['pillars_4',['PILLARS',['../class_controller_1_1_controller.html#a0e73e32af77bf3f1960a6919b82fec6f',1,'Controller::Controller']]],
-  ['pinlist_5',['pinList',['../class_i_r___sense___task_1_1_i_r___sense___task.html#aa0830b9c8a490f173df4609c419ec5b7',1,'IR_Sense_Task::IR_Sense_Task']]],
-  ['pinnums_6',['pinNums',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a05dae1f01654d44be4ab03e0f4deadb2',1,'IR_Sense_Task::IR_Sense_Task']]],
-  ['pos_5fdb_7',['POS_DB',['../class_motor___task_1_1_motor___task.html#a0814d11a81f7a7fe632ea0fce1d4e647',1,'Motor_Task::Motor_Task']]],
-  ['pos_5fmax_8',['POS_MAX',['../class_motor___task_1_1_motor___task.html#ada0505e2883e1d575c934a9dbc2c32b7',1,'Motor_Task::Motor_Task']]],
-  ['pos_5fp_9',['POS_P',['../class_motor___task_1_1_motor___task.html#ac7337acb9712afca47e51aa4c6dbfa73',1,'Motor_Task::Motor_Task']]],
-  ['position_10',['position',['../class_encoder_1_1_encoder.html#a907fc8886de74ac4fe9b23908068a973',1,'Encoder::Encoder']]],
-  ['prev_5fcount_11',['prev_count',['../class_encoder_1_1_encoder.html#a4833ccfbac5153c4f3262b035729e974',1,'Encoder::Encoder']]],
-  ['preverror_12',['prevError',['../class_p_i_d_1_1_p_i_d.html#aa9c2a71c60f4ec7e50892e0c2e136f86',1,'PID::PID']]],
-  ['previndex_13',['prevIndex',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a3224ba0e696e8a101bbcbf95d17d5cba',1,'IR_Sense_Task.IR_Sense_Task.prevIndex'],['../class_ultra___sense___task_1_1_ultra___sense___task.html#a12f33270dd5fbe6e25ffec5c9460da74',1,'Ultra_Sense_Task.Ultra_Sense_Task.prevIndex']]],
-  ['prevposition_14',['prevPosition',['../class_motor___task_1_1_motor___task.html#a9d87a40ec7a402b958c29e8baec9a89b',1,'Motor_Task.Motor_Task.prevPosition'],['../class_x_y___tracking_1_1_x_y___tracking.html#a6465d6ca8e95fa2fb23d41b5215267ad',1,'XY_Tracking.XY_Tracking.prevPosition']]],
-  ['prevpower_15',['prevPower',['../class_motor___task_1_1_motor___task.html#af0e3114c26df1e43f3484ddcb85e3796',1,'Motor_Task::Motor_Task']]],
-  ['prevvelocity_16',['prevVelocity',['../class_motor___task_1_1_motor___task.html#aafc0df07c8b43aff1d972fc2edf5d25a',1,'Motor_Task::Motor_Task']]],
-  ['project_17',['ME405 MECHA31 TERM PROJECT',['../index.html',1,'']]],
-  ['project_20created_20by_20evan_20long_20and_20sydney_20alexander_18',['Hello! Welcome to our Mechatronics Term Project.  Created by Evan Long and Sydney Alexander.',['../index.html#autotoc_md0',1,'']]],
-  ['pwm_5fpin_19',['PWM_pin',['../class_motor_1_1_motor.html#aa607f1a9f2a0165124537af8eea39348',1,'Motor::Motor']]]
+  ['rawdata_0',['rawData',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a79cb7a02ea0578d34cad2b2be143b21d',1,'IR_Sense_Task.IR_Sense_Task.rawData'],['../class_ultra___sense___task_1_1_ultra___sense___task.html#aacf5c3db7ee2762f1675a297c0c11721',1,'Ultra_Sense_Task.Ultra_Sense_Task.rawData']]],
+  ['referenced_1',['referenced',['../class_i_r___sense___task_1_1_i_r___sense___task.html#af0057e2019fcaa23d659d6c6f5d20a21',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['reflectance_2',['reflectance',['../class_i_r___sense___task_1_1_i_r___sense___task.html#af76899a775ba153b5bbe3036ce522184',1,'IR_Sense_Task::IR_Sense_Task']]],
+  ['returnstate_3',['returnState',['../class_controller_1_1_controller.html#a4299e3263502a963d8286a483fa282b9',1,'Controller::Controller']]],
+  ['rightencoder_4',['rightEncoder',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#aacddd036a22899296564ed2a58f4fd15',1,'ME405 Term Project v5::Main']]],
+  ['rightmotor_5',['rightMotor',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#acd981f65c9be485438e38bfc6b508156',1,'ME405 Term Project v5::Main']]],
+  ['run_6',['run',['../class_com___task_1_1_com___task.html#ab8caa300e4ddd2a5518b6803fca31cf8',1,'Com_Task.Com_Task.run()'],['../class_controller_1_1_controller.html#a774cd37a82e6cddf1a0cef2616629f95',1,'Controller.Controller.run()'],['../class_i_m_u___tracker_1_1_i_m_u___tracker.html#aa3e4fcd85abaa92576a85b3aecfdc445',1,'IMU_Tracker.IMU_Tracker.run()'],['../class_i_r___sense___task_1_1_i_r___sense___task.html#a2fbec65f3236763fd47bec98f7400fa1',1,'IR_Sense_Task.IR_Sense_Task.run()'],['../class_motor___task_1_1_motor___task.html#a98e23583d5654e8c42e45e46bac33acc',1,'Motor_Task.Motor_Task.run()'],['../class_ultra___sense___task_1_1_ultra___sense___task.html#a03c4a0f93ac63f1bc4f97dc59079f333',1,'Ultra_Sense_Task.Ultra_Sense_Task.run()'],['../class_x_y___tracking_1_1_x_y___tracking.html#aef27d41b893f7ed375128160e8f56ef5',1,'XY_Tracking.XY_Tracking.run()']]]
 ];

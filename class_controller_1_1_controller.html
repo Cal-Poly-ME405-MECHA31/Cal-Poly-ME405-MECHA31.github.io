@@ -116,7 +116,7 @@ $(function(){initNavTree('class_controller_1_1_controller.html',''); initResizab
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a15e10159fbea9d0ed0381263d500309d" id="r_a15e10159fbea9d0ed0381263d500309d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15e10159fbea9d0ed0381263d500309d">__init__</a> (self, <a class="el" href="#ab469230387b02e0f171a70556cedcc85">encoderPosition</a>, <a class="el" href="#a1a8b99bc77e67205ed5197ff42d3c7fe">dataQueue</a>, <a class="el" href="#ab65a6c0cd43756cc83ca026c7645d415">ctrlState</a>, <a class="el" href="#a0c4add2aff39a2d122e9d83eb59e321e">offset</a>, <a class="el" href="#a4d2787c3a411bf4127d44d8583c43510">strength</a>, <a class="el" href="#a8f68759434641fe876c294869d7a6978">targetVelocity</a>, <a class="el" href="#a472a4c2862c3ff0623dbfd162eacb30d">lineSpeed</a>, <a class="el" href="#a249e9c7b2a7a8e58c4cc66b23f376719">kPShare</a>, <a class="el" href="#a156771d90f9619fbe4d05f5071f2d4f3">kIShare</a>, <a class="el" href="#ae3215d3f6d662dacfcf68fca1fd6d125">kDShare</a>, <a class="el" href="#ac71d84ef8e05ed9f8ad9eb81b23c4898">heading</a>, <a class="el" href="#a4f08f73eb16810a6f10b91dd01cf905d">calibrated</a>, <a class="el" href="#a5442e966bd26619ebf4037c211beb98a">distance</a>, <a class="el" href="#ab6a42dfb65d082aecdce2e8f9307affa">xPosition</a>, <a class="el" href="#adeaa0018316475177771ab7799b94bdc">yPosition</a>)</td></tr>
+<tr class="memitem:a15e10159fbea9d0ed0381263d500309d" id="r_a15e10159fbea9d0ed0381263d500309d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15e10159fbea9d0ed0381263d500309d">__init__</a> (self, encoderPosition, dataQueue, ctrlState, offset, strength, targetVelocity, lineSpeed, kPShare, kIShare, kDShare, heading, calibrated, distance, xPosition, yPosition)</td></tr>
 <tr class="separator:a15e10159fbea9d0ed0381263d500309d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af923a655defdfb0fa84600c2d01b165d" id="r_af923a655defdfb0fa84600c2d01b165d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af923a655defdfb0fa84600c2d01b165d">log</a> (self, val)</td></tr>
 <tr class="separator:af923a655defdfb0fa84600c2d01b165d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,14 +156,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab6a42dfb65d082aecdce2e8f9307affa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeaa0018316475177771ab7799b94bdc" id="r_adeaa0018316475177771ab7799b94bdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeaa0018316475177771ab7799b94bdc">yPosition</a> = yPosition</td></tr>
 <tr class="separator:adeaa0018316475177771ab7799b94bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a024dce78fb3e60f5cfbd2ab60f14dbd3" id="r_a024dce78fb3e60f5cfbd2ab60f14dbd3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a024dce78fb3e60f5cfbd2ab60f14dbd3">state</a> = <a class="el" href="#a7cca5a109bffef5052a2565f18107893">Controller.INIT</a></td></tr>
+<tr class="memitem:a024dce78fb3e60f5cfbd2ab60f14dbd3" id="r_a024dce78fb3e60f5cfbd2ab60f14dbd3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a024dce78fb3e60f5cfbd2ab60f14dbd3">state</a> = Controller.INIT</td></tr>
 <tr class="memdesc:a024dce78fb3e60f5cfbd2ab60f14dbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The next state the machine should run upon being called.  <br /></td></tr>
 <tr class="separator:a024dce78fb3e60f5cfbd2ab60f14dbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65e55fd2c9466a6e86bd0871534b2b0f" id="r_a65e55fd2c9466a6e86bd0871534b2b0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65e55fd2c9466a6e86bd0871534b2b0f">linePID</a> = <a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a>(0, 0, 0, <a class="el" href="#aa1542f76a91c1202b732807da5cf592a">Controller.INTEGRAL_SPEED</a>, <a class="el" href="#a48d29c3bc570c6d8f715c9f2ae5f403e">Controller.DER_AVE</a>)</td></tr>
-<tr class="memdesc:a65e55fd2c9466a6e86bd0871534b2b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_p_i_d.html">PID</a> object with constants chosen for controlling yaw speed as a function of IR sensor offset.  <br /></td></tr>
+<tr class="memdesc:a65e55fd2c9466a6e86bd0871534b2b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> object with constants chosen for controlling yaw speed as a function of IR sensor offset.  <br /></td></tr>
 <tr class="separator:a65e55fd2c9466a6e86bd0871534b2b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0752a71bf10da9ae9300de9ea4e96fd5" id="r_a0752a71bf10da9ae9300de9ea4e96fd5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0752a71bf10da9ae9300de9ea4e96fd5">headingPID</a> = <a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a>(<a class="el" href="class_i_m_u___tracker_1_1_i_m_u___tracker.html#acf9fbb59e3a625a34b7a1bfb2c10bb52">IMU_Tracker.K_P</a>, <a class="el" href="class_i_m_u___tracker_1_1_i_m_u___tracker.html#acdfde99701dcaad0cc4bc37d465d8aa8">IMU_Tracker.K_I</a>, 0, <a class="el" href="class_i_m_u___tracker_1_1_i_m_u___tracker.html#ada15ad675b99a8faa53334bcfdc80a86">IMU_Tracker.INTEGRAL_SPEED</a>, <a class="el" href="class_i_m_u___tracker_1_1_i_m_u___tracker.html#a412b10557c785621d2a0d1d4e4635291">IMU_Tracker.DER_AVE</a>)</td></tr>
-<tr class="memdesc:a0752a71bf10da9ae9300de9ea4e96fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_p_i_d.html">PID</a> object with constants chosen for controlling yaw speed as a function of heading error.  <br /></td></tr>
+<tr class="memdesc:a0752a71bf10da9ae9300de9ea4e96fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> object with constants chosen for controlling yaw speed as a function of heading error.  <br /></td></tr>
 <tr class="separator:a0752a71bf10da9ae9300de9ea4e96fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4299e3263502a963d8286a483fa282b9" id="r_a4299e3263502a963d8286a483fa282b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4299e3263502a963d8286a483fa282b9">returnState</a> = self.state</td></tr>
 <tr class="memdesc:a4299e3263502a963d8286a483fa282b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">In the event that the ALIGN_POINT task is used, returnState defines where the state machine should return to after reaching the point.  <br /></td></tr>
@@ -247,6 +247,8 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="class_controller_1_1_controller.html" title="The Controller class contains the state machine that tracks Romi&#39;s progress through the course.">Controller</a> class contains the state machine that tracks Romi's progress through the course. </p>
 <p>The course is divided into 21 individual steps, each expressed as a state that the controller object must pass through before reaching the end. Each state defines the control law for the motors as well as the logic for passing to the next state. </p>
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00021">21</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a15e10159fbea9d0ed0381263d500309d" name="a15e10159fbea9d0ed0381263d500309d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15e10159fbea9d0ed0381263d500309d">&#9670;&#160;</a></span>__init__()</h2>
@@ -337,6 +339,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00058">58</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -359,6 +363,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00092">92</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a774cd37a82e6cddf1a0cef2616629f95" name="a774cd37a82e6cddf1a0cef2616629f95"></a>
@@ -378,6 +384,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>State machine generator function that is called by the scheduler. </p>
 <p>Each call to this function executes, at most, one state. Generally, the states either advance to the next state or return to the idle state </p>
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00101">101</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -402,6 +410,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00031">31</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="ac79e9ecbc8365271a68f2449f86b9628" name="ac79e9ecbc8365271a68f2449f86b9628"></a>
@@ -423,6 +433,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00034">34</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -446,6 +458,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00050">50</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a9ef2bee17559de9754177f22fc284b1c" name="a9ef2bee17559de9754177f22fc284b1c"></a>
@@ -467,6 +481,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00040">40</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -490,6 +506,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00048">48</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="af20a291a809d8c8844e9a071388808da" name="af20a291a809d8c8844e9a071388808da"></a>
@@ -511,6 +529,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00038">38</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -534,6 +554,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00054">54</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="ac171f24d45b7ce6889b1aad182c9d77d" name="ac171f24d45b7ce6889b1aad182c9d77d"></a>
@@ -555,6 +577,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00042">42</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -578,6 +602,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00045">45</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a8d6e3d92bc2b198079000c946ce3bd5e" name="a8d6e3d92bc2b198079000c946ce3bd5e"></a>
@@ -599,6 +625,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00043">43</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -622,6 +650,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00044">44</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a4f08f73eb16810a6f10b91dd01cf905d" name="a4f08f73eb16810a6f10b91dd01cf905d"></a>
@@ -636,6 +666,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00081">81</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="ab65a6c0cd43756cc83ca026c7645d415" name="ab65a6c0cd43756cc83ca026c7645d415"></a>
@@ -649,6 +681,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00064">64</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -672,6 +706,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00033">33</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a1a8b99bc77e67205ed5197ff42d3c7fe" name="a1a8b99bc77e67205ed5197ff42d3c7fe"></a>
@@ -685,6 +721,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00063">63</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -710,6 +748,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Number of previous line forllow derivative speed terms to average when calculating next derivative. </p>
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00026">26</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="ae764793a4cd8b74d5926b0dfe3df12fc" name="ae764793a4cd8b74d5926b0dfe3df12fc"></a>
@@ -732,6 +772,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00032">32</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a5442e966bd26619ebf4037c211beb98a" name="a5442e966bd26619ebf4037c211beb98a"></a>
@@ -745,6 +787,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00083">83</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -768,6 +812,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00035">35</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a8497cd95901e14b42262e3764b7e1fed" name="a8497cd95901e14b42262e3764b7e1fed"></a>
@@ -790,6 +836,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00055">55</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="ab469230387b02e0f171a70556cedcc85" name="ab469230387b02e0f171a70556cedcc85"></a>
@@ -803,6 +851,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00059">59</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -826,6 +876,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00052">52</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="aca51f577643fdbe8f987cfd81a543d46" name="aca51f577643fdbe8f987cfd81a543d46"></a>
@@ -842,6 +894,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Stop position for the DRIVE_POINT state. </p>
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00834">834</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="ac71d84ef8e05ed9f8ad9eb81b23c4898" name="ac71d84ef8e05ed9f8ad9eb81b23c4898"></a>
@@ -855,6 +909,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00079">79</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -870,7 +926,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="namespace_p_i_d.html">PID</a> object with constants chosen for controlling yaw speed as a function of heading error. </p>
+<p><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> object with constants chosen for controlling yaw speed as a function of heading error. </p>
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00110">110</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -893,6 +951,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00028">28</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -918,6 +978,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Maximum speed contribution by the line follow integral term before the integral stops increasing. </p>
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00024">24</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="ae3215d3f6d662dacfcf68fca1fd6d125" name="ae3215d3f6d662dacfcf68fca1fd6d125"></a>
@@ -931,6 +993,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00077">77</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -946,6 +1010,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00076">76</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a249e9c7b2a7a8e58c4cc66b23f376719" name="a249e9c7b2a7a8e58c4cc66b23f376719"></a>
@@ -959,6 +1025,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00075">75</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -982,6 +1050,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00030">30</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a3659bff891e5dccdf23706f66e360e80" name="a3659bff891e5dccdf23706f66e360e80"></a>
@@ -1003,6 +1073,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00036">36</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1026,6 +1098,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00041">41</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a9a70122944036c9fb9db5ed20fda0614" name="a9a70122944036c9fb9db5ed20fda0614"></a>
@@ -1048,6 +1122,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00049">49</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a65e55fd2c9466a6e86bd0871534b2b0f" name="a65e55fd2c9466a6e86bd0871534b2b0f"></a>
@@ -1062,7 +1138,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="namespace_p_i_d.html">PID</a> object with constants chosen for controlling yaw speed as a function of IR sensor offset. </p>
+<p><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> object with constants chosen for controlling yaw speed as a function of IR sensor offset. </p>
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00109">109</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1077,6 +1155,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00069">69</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1100,6 +1180,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00037">37</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a0c4add2aff39a2d122e9d83eb59e321e" name="a0c4add2aff39a2d122e9d83eb59e321e"></a>
@@ -1113,6 +1195,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00066">66</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1136,6 +1220,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00046">46</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a49ca1c76765bac2a7f2fc1772fb03ee6" name="a49ca1c76765bac2a7f2fc1772fb03ee6"></a>
@@ -1157,6 +1243,8 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00047">47</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1180,6 +1268,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00039">39</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a4299e3263502a963d8286a483fa282b9" name="a4299e3263502a963d8286a483fa282b9"></a>
@@ -1195,6 +1285,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>In the event that the ALIGN_POINT task is used, returnState defines where the state machine should return to after reaching the point. </p>
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00112">112</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1212,6 +1304,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>This float object is set once when the course is started with the current heading from the IMU, then referenced later for alignment motions. </p>
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00130">130</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a3a11d432d6fcbdec47f90b6997c2ef70" name="a3a11d432d6fcbdec47f90b6997c2ef70"></a>
@@ -1228,6 +1322,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>For movements that require distance tracking of the encoder, this object contains the initial position for later reference. </p>
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00131">131</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a024dce78fb3e60f5cfbd2ab60f14dbd3" name="a024dce78fb3e60f5cfbd2ab60f14dbd3"></a>
@@ -1237,13 +1333,15 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Controller.Controller.state = <a class="el" href="#a7cca5a109bffef5052a2565f18107893">Controller.INIT</a></td>
+          <td class="memname">Controller.Controller.state = Controller.INIT</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>The next state the machine should run upon being called. </p>
 <p>For a list of valid states, see the integer constants from 0-25 defined in this class. </p>
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00090">90</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1259,6 +1357,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00067">67</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a8f68759434641fe876c294869d7a6978" name="a8f68759434641fe876c294869d7a6978"></a>
@@ -1272,6 +1372,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00071">71</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1288,6 +1390,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>For movements that have timeouts, this object containst the initial time stamp for later reference. </p>
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00197">197</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1311,6 +1415,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00051">51</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="a1c2bf0c5861e5db979616e055377df0f" name="a1c2bf0c5861e5db979616e055377df0f"></a>
@@ -1333,6 +1439,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00029">29</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <a id="ab6a42dfb65d082aecdce2e8f9307affa" name="ab6a42dfb65d082aecdce2e8f9307affa"></a>
@@ -1346,6 +1454,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00087">87</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
 
 </div>
 </div>
@@ -1361,17 +1471,19 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_controller_8py_source.html#l00088">88</a> of file <a class="el" href="_controller_8py_source.html">Controller.py</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_controller_8py.html">Controller.py</a></li>
+<li><a class="el" href="_controller_8py_source.html">Controller.py</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespace_controller.html">Controller</a></li><li class="navelem"><a class="el" href="class_controller_1_1_controller.html">Controller</a></li>
+    <li class="navelem"><b>Controller</b></li><li class="navelem"><a class="el" href="class_controller_1_1_controller.html">Controller</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

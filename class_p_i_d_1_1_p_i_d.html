@@ -165,6 +165,8 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> is an generic, abstract <a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> class used in various places in Romi's firmware. </p>
 <p>It is used to store constants, and when an output is needed the function calculate(error) is called. This class also features integral saturation: if the integral effort reaches an assigned threshold, the integral stops growing. In addition, the class also features the ability to average the last several derivative values for some basic filtering. </p>
+
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00013">13</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaadf183e0cee38d7b2a71a89b87aa5e9" name="aaadf183e0cee38d7b2a71a89b87aa5e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaadf183e0cee38d7b2a71a89b87aa5e9">&#9670;&#160;</a></span>__init__()</h2>
@@ -205,6 +207,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00015">15</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -229,6 +233,8 @@ Public Attributes</h2></td></tr>
 
 <p>calculate is the main computation of the <a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> controller. </p>
 <p>Calculate takes a unitless input, error, and returns a unitless output effort </p>
+
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00042">42</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
 
 </div>
 </div>
@@ -264,6 +270,8 @@ Public Attributes</h2></td></tr>
 <p>In some cases, the firmware possesses the ability to dynamically alter the <a class="el" href="class_p_i_d_1_1_p_i_d.html" title="PID is an generic, abstract PID class used in various places in Romi&#39;s firmware.">PID</a> constants with user input. </p>
 <p>This function allows the quick reassignment of the constants. </p>
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00036">36</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <a id="a3c0e37131a58727b04230e2c59f7af4b" name="a3c0e37131a58727b04230e2c59f7af4b"></a>
@@ -283,6 +291,8 @@ Public Attributes</h2></td></tr>
 
 <p>Calling setTimeStamp assigns the timestamp that is used for derivative calculation immediately. </p>
 <p>This is used to reset the controller </p>
+
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00032">32</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
 
 </div>
 </div>
@@ -304,6 +314,8 @@ Public Attributes</h2></td></tr>
 <p>Calling zero assigns the integral to 0 immediately. </p>
 <p>This is used to reset the controller </p>
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00028">28</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -321,6 +333,8 @@ Public Attributes</h2></td></tr>
 
 <p>Index of the last place in der_list that was assigned a value. </p>
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00025">25</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <a id="acc440587c2f2f6e52574b90fd585f87d" name="acc440587c2f2f6e52574b90fd585f87d"></a>
@@ -336,6 +350,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>List of ints containing the last several derivative effort outputs for averaging. </p>
+
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00024">24</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
 
 </div>
 </div>
@@ -353,6 +369,8 @@ Public Attributes</h2></td></tr>
 
 <p>The number of past derivative terms to average out when calculating next output. </p>
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00020">20</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <a id="a6367eb52ac4386fc9a7be19d1193f513" name="a6367eb52ac4386fc9a7be19d1193f513"></a>
@@ -366,6 +384,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00021">21</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
 
 </div>
 </div>
@@ -383,6 +403,8 @@ Public Attributes</h2></td></tr>
 
 <p>The maximum integral effort output value before the integral terms stops growing. </p>
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00019">19</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <a id="a3a6c3edfebcdcef6ef7d73dc1d29f9be" name="a3a6c3edfebcdcef6ef7d73dc1d29f9be"></a>
@@ -398,6 +420,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Current derivative constant. </p>
+
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00018">18</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
 
 </div>
 </div>
@@ -415,6 +439,8 @@ Public Attributes</h2></td></tr>
 
 <p>Current integral constant. </p>
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00017">17</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <a id="a7b34abcf8affdfbddd88b3be43e51361" name="a7b34abcf8affdfbddd88b3be43e51361"></a>
@@ -430,6 +456,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Current proportional constant. </p>
+
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00016">16</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
 
 </div>
 </div>
@@ -447,6 +475,8 @@ Public Attributes</h2></td></tr>
 
 <p>The error from the last calculation cycle for derivative calculations. </p>
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00022">22</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <a id="ab7265d590e21be8b5ea58fbb9dc18ddb" name="ab7265d590e21be8b5ea58fbb9dc18ddb"></a>
@@ -463,17 +493,19 @@ Public Attributes</h2></td></tr>
 
 <p>Timestamp used for derivative calculations. </p>
 
+<p class="definition">Definition at line <a class="el" href="_p_i_d_8py_source.html#l00023">23</a> of file <a class="el" href="_p_i_d_8py_source.html">PID.py</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_p_i_d_8py.html">PID.py</a></li>
+<li><a class="el" href="_p_i_d_8py_source.html">PID.py</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespace_p_i_d.html">PID</a></li><li class="navelem"><a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a></li>
+    <li class="navelem"><b>PID</b></li><li class="navelem"><a class="el" href="class_p_i_d_1_1_p_i_d.html">PID</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

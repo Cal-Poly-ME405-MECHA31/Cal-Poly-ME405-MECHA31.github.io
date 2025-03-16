@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['get_5fposition_0',['get_position',['../class_encoder_1_1_encoder.html#a9df86a53897e453550b1c36de25a70a9',1,'Encoder::Encoder']]],
-  ['get_5fvelocity_1',['get_velocity',['../class_encoder_1_1_encoder.html#aed5c0bf1fd354aa5a91aba6e9cc4c229',1,'Encoder::Encoder']]]
+  ['setpid_0',['setPID',['../class_p_i_d_1_1_p_i_d.html#a7403588ee7e6c112a8fb84aa6e84f013',1,'PID::PID']]],
+  ['settimestamp_1',['setTimeStamp',['../class_p_i_d_1_1_p_i_d.html#a3c0e37131a58727b04230e2c59f7af4b',1,'PID::PID']]]
 ];
