@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['parameter_20characterization_0',['Physical Parameter Characterization',['../index.html#autotoc_md12',1,'']]],
-  ['physical_20parameter_20characterization_1',['Physical Parameter Characterization',['../index.html#autotoc_md12',1,'']]],
+  ['parameter_20characterization_3a_0',['Physical Parameter Characterization:',['../index.html#autotoc_md12',1,'']]],
+  ['physical_20parameter_20characterization_3a_1',['Physical Parameter Characterization:',['../index.html#autotoc_md12',1,'']]],
   ['pid_2',['PID',['../class_p_i_d_1_1_p_i_d.html',1,'PID.PID'],['../class_i_m_u___tracker_1_1_i_m_u___tracker.html#a65528eab16264ababc53445585ea0518',1,'IMU_Tracker.IMU_Tracker.PID'],['../class_motor___task_1_1_motor___task.html#abcb857ae9f08c6e3a1574d944a28d79e',1,'Motor_Task.Motor_Task.PID']]],
   ['pinlist_3',['pinList',['../class_i_r___sense___task_1_1_i_r___sense___task.html#aa0830b9c8a490f173df4609c419ec5b7',1,'IR_Sense_Task::IR_Sense_Task']]],
   ['pinnums_4',['pinNums',['../class_i_r___sense___task_1_1_i_r___sense___task.html#a05dae1f01654d44be4ab03e0f4deadb2',1,'IR_Sense_Task::IR_Sense_Task']]],

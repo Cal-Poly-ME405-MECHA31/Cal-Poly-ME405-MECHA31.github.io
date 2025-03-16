@@ -3,7 +3,7 @@ var searchData=
   ['calculate_0',['calculate',['../class_p_i_d_1_1_p_i_d.html#a6a19a94667f4e440f3a436d3b5135fdb',1,'PID::PID']]],
   ['calibrated_1',['calibrated',['../class_m_e405_01_term_01_project_01v5_1_1_main.html#a8b0c07e1d2a57d0f0d45405a75c3a0c5',1,'ME405 Term Project v5::Main']]],
   ['callback_2',['callback',['../class_com___task_1_1_com___task.html#a5eb68f45a894734e165ddbe36cd2f4cb',1,'Com_Task.Com_Task.callback()'],['../class_i_r___sense___task_1_1_i_r___sense___task.html#a08f86d7812ec575d49eabe2fca904e8e',1,'IR_Sense_Task.IR_Sense_Task.callback()'],['../class_ultra___sense___task_1_1_ultra___sense___task.html#ae84279b0dccc82bc17ed14cb86a7ede0',1,'Ultra_Sense_Task.Ultra_Sense_Task.callback()']]],
-  ['characterization_3',['Physical Parameter Characterization',['../index.html#autotoc_md12',1,'']]],
+  ['characterization_3a_3',['Physical Parameter Characterization:',['../index.html#autotoc_md12',1,'']]],
   ['chiralindex_4',['chiralIndex',['../class_motor___task_1_1_motor___task.html#a64452224eded23fdba9e085fbcb5bdc1',1,'Motor_Task::Motor_Task']]],
   ['class_20descriptions_20for_20context_3a_5',['Class Descriptions for Context:',['../index.html#autotoc_md2',1,'']]],
   ['classes_3a_6',['Links to Each 11 Classes:',['../index.html#autotoc_md1',1,'']]],

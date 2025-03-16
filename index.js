@@ -13,7 +13,7 @@ var index =
       [ "Control Diagrams:", "index.html#autotoc_md9", [
         [ "Line Follow Controller:", "index.html#autotoc_md10", null ],
         [ "Heading Controller:", "index.html#autotoc_md11", null ],
-        [ "Physical Parameter Characterization", "index.html#autotoc_md12", null ]
+        [ "Physical Parameter Characterization:", "index.html#autotoc_md12", null ]
       ] ]
     ] ]
 ];
